@@ -24,6 +24,8 @@ jobs:
           cache: "yarn"
       - name: yarn install
         run: yarn install
+      - name: yarn lint
+        run: yarn lint
       - name: tests
         run: yarn test:ci
         env:

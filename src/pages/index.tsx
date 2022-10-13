@@ -1,6 +1,6 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
@@ -12,9 +12,9 @@ const Home: NextPage = () => {
 
       <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
         <h1 className="text-6xl font-bold">
-          Welcome to{' '}
+          Welcome to{" "}
           <a className="text-blue-600" href="https://talksofcode.com">
-          Talksofcode
+            Talksofcode
           </a>
         </h1>
       </main>
@@ -26,12 +26,12 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
+          Powered by{" "}
           <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
         </a>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
