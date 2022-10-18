@@ -1,37 +1,33 @@
-import type { NextPage } from "next";
+import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
+import { PostCard } from "../components";
+import { getPosts } from "../services";
+import { BlogPostData, BlogPost } from "../typedefs";
 
-const Home: NextPage = () => {
+const Home: NextPage<BlogPostData> = ({ posts }) => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="container mx-auto px-10 mb-8">
       <Head>
-        <title>Create Next App</title>
+        <title>Talks of Code</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{" "}
-          <a className="text-blue-600" href="https://talksofcode.com">
-            Talksofcode
-          </a>
-        </h1>
-      </main>
-
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
-      </footer>
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        <div className="lg:col-span-8 col-span-1">
+          {posts.map((post) => {
+            return <PostCard post={post} key={post.id} />;
+          })}
+        </div>
+      </div>
     </div>
   );
 };
 
 export default Home;
+
+export const getStaticProps: GetStaticProps = async () => {
+  const posts: BlogPost[] = (await getPosts()) || [];
+  return {
+    props: { posts },
+  };
+};
