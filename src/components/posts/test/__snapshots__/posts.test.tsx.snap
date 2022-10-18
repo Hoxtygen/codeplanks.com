@@ -1,0 +1,350 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Blog posts Home renders the Home component 1`] = `
+<div>
+  <div
+    class="container mx-auto px-10 mb-8"
+  >
+    <div
+      class="grid grid-cols-1 lg:grid-cols-12 gap-12"
+    >
+      <div
+        class="lg:col-span-8 col-span-1"
+      >
+        <div
+          class="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8"
+        >
+          <div
+            class="relative overflow-hidden shadow-md pb-80 mb-6"
+          >
+            <img
+              alt="Promises"
+              class="object-top absolute h-80 w-full object-cover shadow-lg rounded-t-lg lg:rounded-lg"
+              src="https://media.graphassets.com/zfNO9rUaTSWv46vUnqUw"
+            />
+          </div>
+          <h1
+            class="transition duration-700 text-center mb-8 cursor-pointer hover:text-pink-600 text-3xl font-semibold"
+          >
+            <a
+              href="/post/javascript-promises"
+            >
+              Promises
+            </a>
+          </h1>
+          <div
+            class="block lg:flex text-center items-center justify-center mb-8 w-full"
+          >
+            <div
+              class="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8"
+            >
+              <img
+                alt="Wasiu Idowu"
+                class="align-middle rounded-full"
+                height="50px"
+                src="https://media.graphassets.com/x1acQHzbTsivb1K1vieY"
+                width="50px"
+              />
+              <p
+                class="inline align-middle text-gray-700 ml-2 text-lg"
+              >
+                Wasiu Idowu
+              </p>
+            </div>
+            <div
+              class="font-medium text-gray-700"
+            >
+              <svg
+                class="h-6 w-6 inline mr-2 text-pink-500"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <span
+                data-testid="postDate"
+              >
+                Oct 07, 2022
+                 
+              </span>
+            </div>
+          </div>
+          <p
+            class="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8"
+            data-testid="excerpt"
+          >
+            JavaScript promise is used for asynchronous programming, a successor to callback.
+          </p>
+          <div
+            class="text-center"
+          >
+            <span
+              class="transition duration-500 transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
+              data-testid="readmore"
+            >
+              Continue reading
+            </span>
+          </div>
+        </div>
+        <div
+          class="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8"
+        >
+          <div
+            class="relative overflow-hidden shadow-md pb-80 mb-6"
+          >
+            <img
+              alt="Promises-Part 2"
+              class="object-top absolute h-80 w-full object-cover shadow-lg rounded-t-lg lg:rounded-lg"
+              src="https://media.graphassets.com/O2tkABqROSLPOn89Syic"
+            />
+          </div>
+          <h1
+            class="transition duration-700 text-center mb-8 cursor-pointer hover:text-pink-600 text-3xl font-semibold"
+          >
+            <a
+              href="/post/javascript-promises-part-2"
+            >
+              Promises-Part 2
+            </a>
+          </h1>
+          <div
+            class="block lg:flex text-center items-center justify-center mb-8 w-full"
+          >
+            <div
+              class="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8"
+            >
+              <img
+                alt="Wasiu Idowu"
+                class="align-middle rounded-full"
+                height="50px"
+                src="https://media.graphassets.com/x1acQHzbTsivb1K1vieY"
+                width="50px"
+              />
+              <p
+                class="inline align-middle text-gray-700 ml-2 text-lg"
+              >
+                Wasiu Idowu
+              </p>
+            </div>
+            <div
+              class="font-medium text-gray-700"
+            >
+              <svg
+                class="h-6 w-6 inline mr-2 text-pink-500"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                />
+              </svg>
+              <span
+                data-testid="postDate"
+              >
+                Oct 07, 2022
+                 
+              </span>
+            </div>
+          </div>
+          <p
+            class="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8"
+            data-testid="excerpt"
+          >
+            JavaScript promise is used for asynchronous programming, a successor to callback.
+          </p>
+          <div
+            class="text-center"
+          >
+            <span
+              class="transition duration-500 transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
+              data-testid="readmore"
+            >
+              Continue reading
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Blog posts PostCard component should render PostCard component 1`] = `
+<div>
+  <div
+    class="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8"
+  >
+    <div
+      class="relative overflow-hidden shadow-md pb-80 mb-6"
+    >
+      <img
+        alt="Promises"
+        class="object-top absolute h-80 w-full object-cover shadow-lg rounded-t-lg lg:rounded-lg"
+        src="https://media.graphassets.com/zfNO9rUaTSWv46vUnqUw"
+      />
+    </div>
+    <h1
+      class="transition duration-700 text-center mb-8 cursor-pointer hover:text-pink-600 text-3xl font-semibold"
+    >
+      <a
+        href="/post/javascript-promises"
+      >
+        Promises
+      </a>
+    </h1>
+    <div
+      class="block lg:flex text-center items-center justify-center mb-8 w-full"
+    >
+      <div
+        class="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8"
+      >
+        <img
+          alt="Wasiu Idowu"
+          class="align-middle rounded-full"
+          height="50px"
+          src="https://media.graphassets.com/x1acQHzbTsivb1K1vieY"
+          width="50px"
+        />
+        <p
+          class="inline align-middle text-gray-700 ml-2 text-lg"
+        >
+          Wasiu Idowu
+        </p>
+      </div>
+      <div
+        class="font-medium text-gray-700"
+      >
+        <svg
+          class="h-6 w-6 inline mr-2 text-pink-500"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          />
+        </svg>
+        <span
+          data-testid="postDate"
+        >
+          Oct 07, 2022
+           
+        </span>
+      </div>
+    </div>
+    <p
+      class="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8"
+      data-testid="excerpt"
+    >
+      JavaScript promise is used for asynchronous programming, a successor to callback.
+    </p>
+    <div
+      class="text-center"
+    >
+      <span
+        class="transition duration-500 transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
+        data-testid="readmore"
+      >
+        Continue reading
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Blog posts PostCard component should render a post 1`] = `
+<p
+  class="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8"
+  data-testid="excerpt"
+>
+  JavaScript promise is used for asynchronous programming, a successor to callback.
+</p>
+`;
+
+exports[`Blog posts PostCard component should render a post 2`] = `
+<h1
+  class="transition duration-700 text-center mb-8 cursor-pointer hover:text-pink-600 text-3xl font-semibold"
+>
+  <a
+    href="/post/javascript-promises"
+  >
+    Promises
+  </a>
+</h1>
+`;
+
+exports[`Blog posts PostCard component should render a post 3`] = `
+[
+  <img
+    alt="Promises"
+    class="object-top absolute h-80 w-full object-cover shadow-lg rounded-t-lg lg:rounded-lg"
+    src="https://media.graphassets.com/zfNO9rUaTSWv46vUnqUw"
+  />,
+  <img
+    alt="Wasiu Idowu"
+    class="align-middle rounded-full"
+    height="50px"
+    src="https://media.graphassets.com/x1acQHzbTsivb1K1vieY"
+    width="50px"
+  />,
+]
+`;
+
+exports[`Blog posts PostCard component should render a post 4`] = `
+<a
+  href="/post/javascript-promises"
+>
+  Promises
+</a>
+`;
+
+exports[`Blog posts PostCard component should render a post 5`] = `
+<span
+  data-testid="postDate"
+>
+  Oct 07, 2022
+   
+</span>
+`;
+
+exports[`Blog posts PostCard component should render a post 6`] = `
+<a
+  href="/post/javascript-promises"
+>
+  Promises
+</a>
+`;
+
+exports[`Blog posts PostCard component should render a post 7`] = `
+<span
+  class="transition duration-500 transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
+  data-testid="readmore"
+>
+  Continue reading
+</span>
+`;
+
+exports[`Blog posts PostCard component should render a post 8`] = `
+<span
+  class="transition duration-500 transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
+  data-testid="readmore"
+>
+  Continue reading
+</span>
+`;
