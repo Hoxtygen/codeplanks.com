@@ -21,5 +21,8 @@ module.exports = {
   rules: {
     "react/jsx-uses-react": "off",
     "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "no-console": ["error", { allow: ["warn"] }],
+    "@typescript-eslint/no-explicit-any": "off",
   },
 };
