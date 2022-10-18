@@ -104,3 +104,30 @@ exports[`Header renders Header component 2`] = `
   TalksofCode
 </span>
 `;
+
+exports[`Header renders layout 1`] = `
+<div>
+  <div
+    class="container mx-auto px-10 mb-8"
+  >
+    <div
+      class="border-b w-full inline-block border-blue-400 py-8"
+    >
+      <div
+        class="md:float-left block"
+      >
+        <span
+          class="cursor-pointer font-bold text-4xl text-blue"
+        >
+          TalksofCode
+        </span>
+      </div>
+    </div>
+  </div>
+  <button
+    data-testid="btn"
+  >
+    Child component
+  </button>
+</div>
+`;
