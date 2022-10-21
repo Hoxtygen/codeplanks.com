@@ -1,0 +1,1866 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post Detail renders the PostDetail component 1`] = `
+<div>
+  <div
+    class="bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8"
+  >
+    <div
+      class="relative overflow-hidden shadow-md mb-6"
+    >
+      <img
+        alt="Promises"
+        class="object-top h-full w-full rounded-t-lg"
+        src="https://media.graphassets.com/zfNO9rUaTSWv46vUnqUw"
+      />
+    </div>
+    <div
+      class="px-4 lg:px-0"
+    >
+      <div
+        class="flex items-center mb-8 w-full"
+      >
+        <div
+          class="flex items-center r mb-4 lg:mb-0 w-full lg:w-auto mr-8"
+        >
+          <img
+            alt="Wasiu Idowu"
+            class="align-middle rounded-full"
+            data-testid="author-image"
+            height="50px"
+            src="https://media.graphassets.com/x1acQHzbTsivb1K1vieY"
+            width="50px"
+          />
+          <p
+            aria-label="Author name"
+            class="inline align-middle text-gray-700 ml-2 text-lg"
+            data-testid="author-name"
+          >
+            Wasiu Idowu
+          </p>
+        </div>
+        <div
+          class="font-medium text-gray-700"
+        >
+          <svg
+            class="h-6 w-6 inline mr-2 text-pink-500"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+            />
+          </svg>
+          <span
+            aria-label="Publication date"
+            data-testid="published-date"
+          >
+            Oct 07, 2022
+             
+          </span>
+        </div>
+      </div>
+      <h1
+        class="mb-8 text-3xl font-semibold"
+        data-name="Promises"
+        data-testid="post-title"
+      >
+        Promises
+      </h1>
+      <div>
+        <p
+          class="mb-8"
+          data-testid="paragraph"
+        >
+          A JavaScript Promise is created with the new 
+          <a
+            class="underline decoration-solid decoration-sky-500 hover:decoration-blue-400"
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Promise constructor function
+          </a>
+           - 
+          <code
+            class="language-javascript"
+          >
+            <span
+              class="token keyword"
+            >
+              new
+            </span>
+             
+            <span
+              class="token class-name"
+            >
+              Promise
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+          </code>
+          . A promise will let you start some work that will be done asynchronously and let you get back to your regular work. When you create the promise, you must give it the code that will be run asynchronously. You provide this code as the argument of the constructor function:
+        </p>
+        <pre
+          class="line-numbers language-javascript"
+          tabindex="0"
+        >
+          <code
+            class="language-javascript"
+          >
+            <span
+              class="token keyword"
+            >
+              new
+            </span>
+             
+            <span
+              class="token class-name"
+            >
+              Promise
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token keyword"
+            >
+              function
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+             
+   window
+            <span
+              class="token punctuation"
+            >
+              .
+            </span>
+            <span
+              class="token function"
+            >
+              setTimeout
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token keyword"
+            >
+              function
+            </span>
+             
+            <span
+              class="token function"
+            >
+              createSundae
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            flavor 
+            <span
+              class="token operator"
+            >
+              =
+            </span>
+             
+            <span
+              class="token string"
+            >
+              'chocolate'
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+             
+       
+            <span
+              class="token keyword"
+            >
+              const
+            </span>
+             sundae 
+            <span
+              class="token operator"
+            >
+              =
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+             
+ 
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ,
+            </span>
+             Math
+            <span
+              class="token punctuation"
+            >
+              .
+            </span>
+            <span
+              class="token function"
+            >
+              random
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token operator"
+            >
+              *
+            </span>
+             
+            <span
+              class="token number"
+            >
+              2000
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+            
+
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+            <span
+              aria-hidden="true"
+              class="line-numbers-rows"
+            >
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </span>
+          </code>
+        </pre>
+        <p
+          class="mb-8"
+          data-testid="paragraph"
+        >
+          This code creates a promise that will start in a few seconds after I make the request. Then there are a number of steps that need to be made in the 
+          <code
+            class="language-javascript"
+          >
+            createSundae
+          </code>
+           function.
+        </p>
+        <h6>
+          Indicated a Successful Request or a Failed Request
+        </h6>
+        <p
+          class="mb-8"
+          data-testid="paragraph"
+        >
+          But once that's all done, how does JavaScript notify us that it's finished and ready for us to pick back up? It does that by passing two functions into our initial function. Typically we call these 
+          <code
+            class="language-javascript"
+          >
+            resolve
+          </code>
+           and 
+          <code
+            class="language-javascript"
+          >
+            reject
+          </code>
+          .
+        </p>
+        <p
+          class="mb-8"
+          data-testid="paragraph"
+        >
+          The function gets passed to the function we provide the Promise constructor - typically the word "resolve" is used to indicate that this function should be called when the request completes successfully. Notice the 
+          <code
+            class="language-javascript"
+          >
+            resolve
+          </code>
+           on the first line:
+        </p>
+        <pre
+          class="line-numbers language-javascript"
+          tabindex="0"
+        >
+          <code
+            class="language-javascript"
+          >
+            <span
+              class="token keyword"
+            >
+              new
+            </span>
+             
+            <span
+              class="token class-name"
+            >
+              Promise
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token keyword"
+            >
+              function
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token parameter"
+            >
+              resolve
+              <span
+                class="token punctuation"
+              >
+                ,
+              </span>
+               reject
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+                
+     window
+            <span
+              class="token punctuation"
+            >
+              .
+            </span>
+            <span
+              class="token function"
+            >
+              setTimeout
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token keyword"
+            >
+              function
+            </span>
+             
+            <span
+              class="token function"
+            >
+              createSundae
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            flavor 
+            <span
+              class="token operator"
+            >
+              =
+            </span>
+             
+            <span
+              class="token string"
+            >
+              'chocolate'
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+             
+     
+            <span
+              class="token keyword"
+            >
+              const
+            </span>
+             sundae 
+            <span
+              class="token operator"
+            >
+              =
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+                   
+      
+            <span
+              class="token function"
+            >
+              resolve
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            sundae
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+               
+ 
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ,
+            </span>
+             Math
+            <span
+              class="token punctuation"
+            >
+              .
+            </span>
+            <span
+              class="token function"
+            >
+              random
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token operator"
+            >
+              *
+            </span>
+             
+            <span
+              class="token number"
+            >
+              2000
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+            
+
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+            <span
+              aria-hidden="true"
+              class="line-numbers-rows"
+            >
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </span>
+          </code>
+        </pre>
+        <p
+          class="mb-8"
+          data-testid="paragraph"
+        >
+          Now when the sundae has been successfully created, it calls the 
+          <code
+            class="language-javascript"
+          >
+            resolve
+          </code>
+           method and passes it the data we want to return - in this case the data that's being returned is the completed sundae. So the 
+          <code
+            class="language-javascript"
+          >
+            resolve
+          </code>
+           method is used to indicate that the request is complete and that it completed 
+          <i>
+            successfully
+             
+          </i>
+          .
+        </p>
+        <p
+          class="mb-8"
+          data-testid="paragraph"
+        >
+          If there is a problem with the request and it couldn't be completed, then we could use the second function that's passed to the function. Typically, this function is stored in an identifier called "reject" to indicate that this function should be used if the request fails for some reason. Check out the 
+          <code
+            class="language-javascript"
+          >
+            reject
+          </code>
+           on the first line:
+        </p>
+        <pre
+          class="line-numbers language-javascript"
+          tabindex="0"
+        >
+          <code
+            class="language-javascript"
+          >
+            <span
+              class="token keyword"
+            >
+              new
+            </span>
+             
+            <span
+              class="token class-name"
+            >
+              Promise
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token keyword"
+            >
+              function
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token parameter"
+            >
+              resolve
+              <span
+                class="token punctuation"
+              >
+                ,
+              </span>
+               reject
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+                
+   window
+            <span
+              class="token punctuation"
+            >
+              .
+            </span>
+            <span
+              class="token function"
+            >
+              setTimeout
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token keyword"
+            >
+              function
+            </span>
+             
+            <span
+              class="token function"
+            >
+              createSundae
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            flavor 
+            <span
+              class="token operator"
+            >
+              =
+            </span>
+             
+            <span
+              class="token string"
+            >
+              'chocolate'
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+                  
+   
+            <span
+              class="token keyword"
+            >
+              const
+            </span>
+             sundae 
+            <span
+              class="token operator"
+            >
+              =
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+                    
+      
+            <span
+              class="token keyword"
+            >
+              if
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+             
+            <span
+              class="token comment"
+            >
+              /* iceCreamConeIsEmpty(flavor) */
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+                       
+        
+            <span
+              class="token function"
+            >
+              reject
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token template-string"
+            >
+              <span
+                class="token template-punctuation string"
+              >
+                \`
+              </span>
+              <span
+                class="token string"
+              >
+                Sorry, we're out of that flavor :-(
+              </span>
+              <span
+                class="token template-punctuation string"
+              >
+                \`
+              </span>
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+              
+      
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+                    
+      
+            <span
+              class="token function"
+            >
+              resolve
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            sundae
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+              
+  
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ,
+            </span>
+             Math
+            <span
+              class="token punctuation"
+            >
+              .
+            </span>
+            <span
+              class="token function"
+            >
+              random
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token operator"
+            >
+              *
+            </span>
+             
+            <span
+              class="token number"
+            >
+              2000
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+            
+
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+            <span
+              aria-hidden="true"
+              class="line-numbers-rows"
+            >
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </span>
+          </code>
+        </pre>
+        <p
+          class="mb-8"
+          data-testid="paragraph"
+        >
+          So the 
+          <code
+            class="language-javascript"
+          >
+            reject
+          </code>
+           method is used when the request 
+          <i>
+            could not be completed
+             
+          </i>
+          . Notice that even though the request fails, we can still return data - in this case we're just returning text that says we don't have the desired ice cream flavor.
+        </p>
+        <p
+          class="mb-8"
+          data-testid="paragraph"
+        >
+          A Promise constructor takes a function that will run and then, after some amount of time, will either complete successfully (using the 
+          <code
+            class="language-javascript"
+          >
+            resolve
+          </code>
+           method) or unsuccessfully (using the 
+          <code
+            class="language-javascript"
+          >
+            reject
+          </code>
+          method). When the outcome has been finalized (the request has either completed successfully or unsuccessfully), the promise is now 
+          <i>
+            fulfilled
+             
+          </i>
+           and will notify us so we can decide what to do with the response.
+        </p>
+        <h2
+          class="text-xl font-semibold mb-4"
+        >
+          Promises Return Immediately
+        </h2>
+        <p
+          class="mb-8"
+          data-testid="paragraph"
+        >
+          The first thing to understand is that a Promise will immediately return an object.
+        </p>
+        <pre
+          class="line-numbers language-javascript"
+          tabindex="0"
+        >
+          <code
+            class="language-javascript"
+          >
+            <span
+              class="token keyword"
+            >
+              const
+            </span>
+             myPromiseObj 
+            <span
+              class="token operator"
+            >
+              =
+            </span>
+             
+            <span
+              class="token keyword"
+            >
+              new
+            </span>
+             
+            <span
+              class="token class-name"
+            >
+              Promise
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token keyword"
+            >
+              function
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token parameter"
+            >
+              resolve
+              <span
+                class="token punctuation"
+              >
+                ,
+              </span>
+               reject
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+               
+ 
+            <span
+              class="token comment"
+            >
+              // sundae creation code
+            </span>
+            
+
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+            <span
+              aria-hidden="true"
+              class="line-numbers-rows"
+            >
+              <span />
+              <span />
+              <span />
+            </span>
+          </code>
+        </pre>
+        <p
+          class="mb-8"
+          data-testid="paragraph"
+        >
+          That object has a 
+          <code
+            class="language-javascript"
+          >
+            <span
+              class="token punctuation"
+            >
+              .
+            </span>
+            <span
+              class="token function"
+            >
+              then
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+          </code>
+           method on it that we can use to have it notify us if the request we made in the promise was either successful or failed. The 
+          <code
+            class="language-javascript"
+          >
+            <span
+              class="token punctuation"
+            >
+              .
+            </span>
+            <span
+              class="token function"
+            >
+              then
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+          </code>
+           method takes two functions:
+        </p>
+        <ol
+          class="list-decimal list-inside"
+        >
+          <li>
+             
+            <p
+              class="mb-8"
+              data-testid="paragraph"
+            >
+              the function to run if the request completed successfully
+            </p>
+          </li>
+          <li>
+             
+            <p
+              class="mb-8"
+              data-testid="paragraph"
+            >
+              the function to run if the request failed to complete
+            </p>
+          </li>
+        </ol>
+        <pre
+          class="line-numbers language-javascript"
+          tabindex="0"
+        >
+          <code
+            class="language-javascript"
+          >
+            mySundae
+            <span
+              class="token punctuation"
+            >
+              .
+            </span>
+            <span
+              class="token function"
+            >
+              then
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token keyword"
+            >
+              function
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token parameter"
+            >
+              sundae
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+              
+  console
+            <span
+              class="token punctuation"
+            >
+              .
+            </span>
+            <span
+              class="token function"
+            >
+              log
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token template-string"
+            >
+              <span
+                class="token template-punctuation string"
+              >
+                \`
+              </span>
+              <span
+                class="token string"
+              >
+                Time to eat my delicious 
+              </span>
+              <span
+                class="token interpolation"
+              >
+                <span
+                  class="token interpolation-punctuation punctuation"
+                >
+                  \${
+                </span>
+                sundae
+                <span
+                  class="token interpolation-punctuation punctuation"
+                >
+                  }
+                </span>
+              </span>
+              <span
+                class="token template-punctuation string"
+              >
+                \`
+              </span>
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+            
+
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ,
+            </span>
+            
+
+            <span
+              class="token keyword"
+            >
+              function
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token parameter"
+            >
+              msg
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+             
+            <span
+              class="token punctuation"
+            >
+              {
+            </span>
+             
+   console
+            <span
+              class="token punctuation"
+            >
+              .
+            </span>
+            <span
+              class="token function"
+            >
+              log
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            msg
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+             
+   self
+            <span
+              class="token punctuation"
+            >
+              .
+            </span>
+            <span
+              class="token function"
+            >
+              goCry
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+             
+            <span
+              class="token comment"
+            >
+              // not a real method
+            </span>
+            
+
+            <span
+              class="token punctuation"
+            >
+              }
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+            <span
+              class="token punctuation"
+            >
+              ;
+            </span>
+            <span
+              aria-hidden="true"
+              class="line-numbers-rows"
+            >
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+              <span />
+            </span>
+          </code>
+        </pre>
+        <p
+          class="mb-8"
+          data-testid="paragraph"
+        >
+          As you can see, the first function that's passed to 
+          <code
+            class="language-javascript"
+          >
+            <span
+              class="token punctuation"
+            >
+              .
+            </span>
+            <span
+              class="token function"
+            >
+              then
+            </span>
+            <span
+              class="token punctuation"
+            >
+              (
+            </span>
+            <span
+              class="token punctuation"
+            >
+              )
+            </span>
+          </code>
+           will be called and passed the data that the Promise's 
+          <code
+            class="language-javascript"
+          >
+            resolve
+          </code>
+           function used. In this case, the function would receive the 
+          <code
+            class="language-javascript"
+          >
+            sundae
+          </code>
+           object. The second function will be called and passed the data that the Promise's 
+          <code
+            class="language-javascript"
+          >
+            reject
+          </code>
+           function was called with. In this case, the function receives the error message "Sorry, we're out of that flavor :-(" that the 
+          <code
+            class="language-javascript"
+          >
+            reject
+          </code>
+           function was called with in the Promise code above
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Post Detail should show post details 1`] = `
+<img
+  alt="Wasiu Idowu"
+  class="align-middle rounded-full"
+  data-testid="author-image"
+  height="50px"
+  src="https://media.graphassets.com/x1acQHzbTsivb1K1vieY"
+  width="50px"
+/>
+`;
+
+exports[`Post Detail should show post details 2`] = `
+<p
+  aria-label="Author name"
+  class="inline align-middle text-gray-700 ml-2 text-lg"
+  data-testid="author-name"
+>
+  Wasiu Idowu
+</p>
+`;
+
+exports[`Post Detail should show post details 3`] = `
+<h1
+  class="mb-8 text-3xl font-semibold"
+  data-name="Promises"
+  data-testid="post-title"
+>
+  Promises
+</h1>
+`;
+
+exports[`Post Detail should show post details 4`] = `
+[
+  <p
+    class="mb-8"
+    data-testid="paragraph"
+  >
+    A JavaScript Promise is created with the new 
+    <a
+      class="underline decoration-solid decoration-sky-500 hover:decoration-blue-400"
+      href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Promise constructor function
+    </a>
+     - 
+    <code
+      class="language-javascript"
+    >
+      <span
+        class="token keyword"
+      >
+        new
+      </span>
+       
+      <span
+        class="token class-name"
+      >
+        Promise
+      </span>
+      <span
+        class="token punctuation"
+      >
+        (
+      </span>
+      <span
+        class="token punctuation"
+      >
+        )
+      </span>
+    </code>
+    . A promise will let you start some work that will be done asynchronously and let you get back to your regular work. When you create the promise, you must give it the code that will be run asynchronously. You provide this code as the argument of the constructor function:
+  </p>,
+  <p
+    class="mb-8"
+    data-testid="paragraph"
+  >
+    This code creates a promise that will start in a few seconds after I make the request. Then there are a number of steps that need to be made in the 
+    <code
+      class="language-javascript"
+    >
+      createSundae
+    </code>
+     function.
+  </p>,
+  <p
+    class="mb-8"
+    data-testid="paragraph"
+  >
+    But once that's all done, how does JavaScript notify us that it's finished and ready for us to pick back up? It does that by passing two functions into our initial function. Typically we call these 
+    <code
+      class="language-javascript"
+    >
+      resolve
+    </code>
+     and 
+    <code
+      class="language-javascript"
+    >
+      reject
+    </code>
+    .
+  </p>,
+  <p
+    class="mb-8"
+    data-testid="paragraph"
+  >
+    The function gets passed to the function we provide the Promise constructor - typically the word "resolve" is used to indicate that this function should be called when the request completes successfully. Notice the 
+    <code
+      class="language-javascript"
+    >
+      resolve
+    </code>
+     on the first line:
+  </p>,
+  <p
+    class="mb-8"
+    data-testid="paragraph"
+  >
+    Now when the sundae has been successfully created, it calls the 
+    <code
+      class="language-javascript"
+    >
+      resolve
+    </code>
+     method and passes it the data we want to return - in this case the data that's being returned is the completed sundae. So the 
+    <code
+      class="language-javascript"
+    >
+      resolve
+    </code>
+     method is used to indicate that the request is complete and that it completed 
+    <i>
+      successfully
+       
+    </i>
+    .
+  </p>,
+  <p
+    class="mb-8"
+    data-testid="paragraph"
+  >
+    If there is a problem with the request and it couldn't be completed, then we could use the second function that's passed to the function. Typically, this function is stored in an identifier called "reject" to indicate that this function should be used if the request fails for some reason. Check out the 
+    <code
+      class="language-javascript"
+    >
+      reject
+    </code>
+     on the first line:
+  </p>,
+  <p
+    class="mb-8"
+    data-testid="paragraph"
+  >
+    So the 
+    <code
+      class="language-javascript"
+    >
+      reject
+    </code>
+     method is used when the request 
+    <i>
+      could not be completed
+       
+    </i>
+    . Notice that even though the request fails, we can still return data - in this case we're just returning text that says we don't have the desired ice cream flavor.
+  </p>,
+  <p
+    class="mb-8"
+    data-testid="paragraph"
+  >
+    A Promise constructor takes a function that will run and then, after some amount of time, will either complete successfully (using the 
+    <code
+      class="language-javascript"
+    >
+      resolve
+    </code>
+     method) or unsuccessfully (using the 
+    <code
+      class="language-javascript"
+    >
+      reject
+    </code>
+    method). When the outcome has been finalized (the request has either completed successfully or unsuccessfully), the promise is now 
+    <i>
+      fulfilled
+       
+    </i>
+     and will notify us so we can decide what to do with the response.
+  </p>,
+  <p
+    class="mb-8"
+    data-testid="paragraph"
+  >
+    The first thing to understand is that a Promise will immediately return an object.
+  </p>,
+  <p
+    class="mb-8"
+    data-testid="paragraph"
+  >
+    That object has a 
+    <code
+      class="language-javascript"
+    >
+      <span
+        class="token punctuation"
+      >
+        .
+      </span>
+      <span
+        class="token function"
+      >
+        then
+      </span>
+      <span
+        class="token punctuation"
+      >
+        (
+      </span>
+      <span
+        class="token punctuation"
+      >
+        )
+      </span>
+    </code>
+     method on it that we can use to have it notify us if the request we made in the promise was either successful or failed. The 
+    <code
+      class="language-javascript"
+    >
+      <span
+        class="token punctuation"
+      >
+        .
+      </span>
+      <span
+        class="token function"
+      >
+        then
+      </span>
+      <span
+        class="token punctuation"
+      >
+        (
+      </span>
+      <span
+        class="token punctuation"
+      >
+        )
+      </span>
+    </code>
+     method takes two functions:
+  </p>,
+  <p
+    class="mb-8"
+    data-testid="paragraph"
+  >
+    the function to run if the request completed successfully
+  </p>,
+  <p
+    class="mb-8"
+    data-testid="paragraph"
+  >
+    the function to run if the request failed to complete
+  </p>,
+  <p
+    class="mb-8"
+    data-testid="paragraph"
+  >
+    As you can see, the first function that's passed to 
+    <code
+      class="language-javascript"
+    >
+      <span
+        class="token punctuation"
+      >
+        .
+      </span>
+      <span
+        class="token function"
+      >
+        then
+      </span>
+      <span
+        class="token punctuation"
+      >
+        (
+      </span>
+      <span
+        class="token punctuation"
+      >
+        )
+      </span>
+    </code>
+     will be called and passed the data that the Promise's 
+    <code
+      class="language-javascript"
+    >
+      resolve
+    </code>
+     function used. In this case, the function would receive the 
+    <code
+      class="language-javascript"
+    >
+      sundae
+    </code>
+     object. The second function will be called and passed the data that the Promise's 
+    <code
+      class="language-javascript"
+    >
+      reject
+    </code>
+     function was called with. In this case, the function receives the error message "Sorry, we're out of that flavor :-(" that the 
+    <code
+      class="language-javascript"
+    >
+      reject
+    </code>
+     function was called with in the Promise code above
+  </p>,
+]
+`;
+
+exports[`Post Detail should show post details 5`] = `
+<span
+  aria-label="Publication date"
+  data-testid="published-date"
+>
+  Oct 07, 2022
+   
+</span>
+`;
+
+exports[`Post Detail should show post details 6`] = `
+<h1
+  class="mb-8 text-3xl font-semibold"
+  data-name="Promises"
+  data-testid="post-title"
+>
+  Promises
+</h1>
+`;
