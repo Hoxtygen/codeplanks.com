@@ -4,31 +4,22 @@ export interface LayoutProps {
   children: React.ReactNode;
 }
 
-export interface Post {
-  post: {
-    id: string;
-    title: string;
-    slug: string;
-    createdAt: string;
-    excerpt: string;
-    featuredImage: {
-      url: string;
-      height: number;
-      width: number;
-    };
-    author: {
-      bio: string;
-      name: string;
-      photo: {
-        url: string;
-      };
-    };
-    content: {
-      raw: {
-        children: ElementNode | any;
-      };
-    };
+interface Author {
+  bio: string;
+  name: string;
+  photo: {
+    url: string;
   };
+}
+
+export interface Content {
+  raw: {
+    children: ElementNode[];
+  };
+}
+
+export interface RichContextProps {
+  content: Content;
 }
 
 export interface BlogPost {
@@ -42,18 +33,17 @@ export interface BlogPost {
     height: number;
     width: number;
   };
-  author: {
-    bio: string;
-    name: string;
-    photo: {
-      url: string;
-    };
-  };
-  content: {
-    raw: {
-      children: ElementNode | any;
-    };
-  };
+  author: Author;
+}
+
+export interface PostWithContent extends BlogPost {
+  content: Content;
+}
+export interface PostWithoutContent {
+  post: BlogPost;
+}
+export interface Post {
+  post: PostWithContent;
 }
 
 export interface BlogPostData {
