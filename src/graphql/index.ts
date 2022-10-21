@@ -26,3 +26,29 @@ export const allPosts = gql`
     }
   }
 `;
+
+export const postDetails = gql`
+  query GetPostDetails($slug: String!) {
+    post(where: { slug: $slug }) {
+      id
+      createdAt
+      slug
+      title
+      excerpt
+      author {
+        id
+        bio
+        name
+        photo {
+          url
+        }
+      }
+      featuredImage {
+        url
+      }
+      content {
+        raw
+      }
+    }
+  }
+`;
