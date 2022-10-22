@@ -116,6 +116,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
         </p>
         <pre
           class="line-numbers language-javascript"
+          data-testid="code-block"
           tabindex="0"
         >
           <code
@@ -375,6 +376,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
         </p>
         <pre
           class="line-numbers language-javascript"
+          data-testid="code-block"
           tabindex="0"
         >
           <code
@@ -659,6 +661,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
         </p>
         <pre
           class="line-numbers language-javascript"
+          data-testid="code-block"
           tabindex="0"
         >
           <code
@@ -1041,6 +1044,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
         </p>
         <pre
           class="line-numbers language-javascript"
+          data-testid="code-block"
           tabindex="0"
         >
           <code
@@ -1198,9 +1202,14 @@ exports[`Post Detail renders the PostDetail component 1`] = `
            method takes two functions:
         </p>
         <ol
+          aria-label="ordered list"
           class="list-decimal list-inside"
+          data-testid="ordered list"
         >
-          <li>
+          <li
+            aria-label="list item"
+          >
+             
              
             <p
               class="mb-8"
@@ -1209,7 +1218,10 @@ exports[`Post Detail renders the PostDetail component 1`] = `
               the function to run if the request completed successfully
             </p>
           </li>
-          <li>
+          <li
+            aria-label="list item"
+          >
+             
              
             <p
               class="mb-8"
@@ -1221,6 +1233,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
         </ol>
         <pre
           class="line-numbers language-javascript"
+          data-testid="code-block"
           tabindex="0"
         >
           <code

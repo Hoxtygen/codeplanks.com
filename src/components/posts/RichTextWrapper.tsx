@@ -33,7 +33,9 @@ export default function RichTextWrapper({ content }: RichContextProps) {
             }
             return (
               <Link href={href as string}>
-                <a {...rest}>{children} </a>
+                <a data-testid="blog-link" {...rest}>
+                  {children}{" "}
+                </a>
               </Link>
             );
           },
@@ -53,16 +55,27 @@ export default function RichTextWrapper({ content }: RichContextProps) {
           ),
           bold: ({ children }) => <strong>{children}</strong>,
           ul: ({ children }) => (
-            <ul className="list-disc list-inside">{children}</ul>
+            <ul aria-label="unordered list" className="list-disc list-inside">
+              {children}
+            </ul>
           ),
           ol: ({ children }) => (
-            <ol className="list-decimal list-inside">{children}</ol>
+            <ol
+              aria-label="ordered list"
+              data-testid="ordered list"
+              className="list-decimal list-inside"
+            >
+              {children}
+            </ol>
           ),
-          li: ({ children }) => <li>{children}</li>,
+          li: ({ children }) => <li aria-label="list item"> {children}</li>,
           underline: ({ children }) => <u>{children} </u>,
           code_block: ({ children }) => {
             return (
-              <pre className="line-numbers language-none">
+              <pre
+                className="line-numbers language-none"
+                data-testid="code-block"
+              >
                 <code className="language-javascript">{children}</code>
               </pre>
             );
@@ -70,7 +83,9 @@ export default function RichTextWrapper({ content }: RichContextProps) {
           code: ({ children }) => (
             <code className="language-javascript">{children}</code>
           ),
-          table: ({ children }) => <table>{children} </table>,
+          table: ({ children }) => (
+            <table data-testid="table">{children} </table>
+          ),
           table_head: ({ children }) => <thead>{children} </thead>,
           table_body: ({ children }) => <tbody> {children}</tbody>,
           table_row: ({ children }) => <tr> {children}</tr>,
