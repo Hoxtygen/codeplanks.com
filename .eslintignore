@@ -3,3 +3,5 @@ jest.config.js
 .eslintrc.js
 
 tailwind.config.js
+
+next.config.js
