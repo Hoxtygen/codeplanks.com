@@ -62,3 +62,33 @@ export const categories = gql`
     }
   }
 `;
+
+export const categoryPost = gql`
+  query GetCategoryPost($slug: String!) {
+    posts(where: { categories_some: { slug: $slug } }) {
+      title
+      slug
+      id
+      excerpt
+      createdAt
+      categories {
+        id
+        name
+        slug
+      }
+      featuredImage {
+        url
+        height
+        width
+      }
+      author {
+        bio
+        id
+        name
+        photo {
+          url
+        }
+      }
+    }
+  }
+`;

@@ -91,7 +91,7 @@ export default function RichTextWrapper({ content }: RichContextProps) {
           table_row: ({ children }) => <tr> {children}</tr>,
           list_item_child: ({ children }) => <Fragment> {children}</Fragment>,
           blockquote: ({ children }) => (
-            <figure>
+            <figure data-testid="quote">
               <blockquote>
                 <p className="text-lg font-medium">{children}</p>
               </blockquote>
