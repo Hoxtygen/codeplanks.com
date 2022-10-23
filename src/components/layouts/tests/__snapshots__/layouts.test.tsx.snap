@@ -9,7 +9,7 @@ exports[`Header renders Header component 1`] = `
         class="container mx-auto px-10 mb-8"
       >
         <div
-          class="border-b w-full inline-block border-blue-400 py-8"
+          class="border-b w-full inline-block border-black py-8"
         >
           <div
             class="md:float-left block"
@@ -20,6 +20,9 @@ exports[`Header renders Header component 1`] = `
               TalksofCode
             </span>
           </div>
+          <div
+            class="hidden md:float-left md:contents"
+          />
         </div>
       </div>
     </div>
@@ -29,7 +32,7 @@ exports[`Header renders Header component 1`] = `
       class="container mx-auto px-10 mb-8"
     >
       <div
-        class="border-b w-full inline-block border-blue-400 py-8"
+        class="border-b w-full inline-block border-black py-8"
       >
         <div
           class="md:float-left block"
@@ -40,6 +43,9 @@ exports[`Header renders Header component 1`] = `
             TalksofCode
           </span>
         </div>
+        <div
+          class="hidden md:float-left md:contents"
+        />
       </div>
     </div>
   </div>,
@@ -111,7 +117,7 @@ exports[`Header renders layout 1`] = `
     class="container mx-auto px-10 mb-8"
   >
     <div
-      class="border-b w-full inline-block border-blue-400 py-8"
+      class="border-b w-full inline-block border-black py-8"
     >
       <div
         class="md:float-left block"
@@ -122,6 +128,9 @@ exports[`Header renders layout 1`] = `
           TalksofCode
         </span>
       </div>
+      <div
+        class="hidden md:float-left md:contents"
+      />
     </div>
   </div>
   <button

@@ -50,10 +50,26 @@ export interface BlogPostData {
   posts: BlogPost[];
 }
 
-interface BlogError {
-  message: string;
+export interface BlogError {
+  error: string;
+  status: number;
 }
 
 export interface PostsError {
   errors: BlogError[];
+}
+
+export interface PostCategory {
+  id: string;
+  name: string;
+  slug: string;
+}
+
+export interface HomeProps {
+  posts: BlogPostData;
+  categories: PostCategory;
+}
+
+export interface PostCategories {
+  categories: PostCategory[];
 }

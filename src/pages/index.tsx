@@ -1,8 +1,8 @@
 import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import { PostCard } from "../components";
-import { getPosts } from "../services";
-import { BlogPostData, BlogPost } from "../typedefs";
+import { PostCard, Categories } from "../components";
+import { getCategories, getPosts } from "../services";
+import { BlogPostData, BlogPost, PostCategory } from "../typedefs";
 
 const Home: NextPage<BlogPostData> = ({ posts }) => {
   return (
@@ -18,6 +18,11 @@ const Home: NextPage<BlogPostData> = ({ posts }) => {
             return <PostCard post={post} key={post.id} />;
           })}
         </div>
+        <div className="lg:col-span-4 col-span-1">
+          <div className="lg:sticky relative top-8">
+            <Categories />
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -27,7 +32,8 @@ export default Home;
 
 export const getStaticProps: GetStaticProps = async () => {
   const posts: BlogPost[] = (await getPosts()) || [];
+  const categories: PostCategory[] = (await getCategories()) || [];
   return {
-    props: { posts },
+    props: { posts, categories },
   };
 };
