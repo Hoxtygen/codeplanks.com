@@ -1,6 +1,6 @@
 import { request } from "graphql-request";
 import { graphqlAPI } from "../constants";
-import { allPosts, categories, postDetails } from "../graphql";
+import { allPosts, categories, categoryPost, postDetails } from "../graphql";
 import {
   BlogPostData,
   BlogPost,
@@ -25,4 +25,11 @@ export const getPostDetails = async (
 export const getCategories = async (): Promise<PostCategory[]> => {
   const results: PostCategories = await request(graphqlAPI, categories);
   return results.categories;
+};
+
+export const getCategoryPosts = async (slug: string): Promise<BlogPost[]> => {
+  const categoryPosts: BlogPostData = await request(graphqlAPI, categoryPost, {
+    slug,
+  });
+  return categoryPosts.posts;
 };
