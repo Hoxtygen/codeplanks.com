@@ -34,6 +34,7 @@ export interface BlogPost {
     width: number;
   };
   author: Author;
+  categories?: PostCategory[];
 }
 
 export interface PostWithContent extends BlogPost {
@@ -42,6 +43,7 @@ export interface PostWithContent extends BlogPost {
 export interface PostWithoutContent {
   post: BlogPost;
 }
+
 export interface Post {
   post: PostWithContent;
 }
@@ -72,4 +74,23 @@ export interface HomeProps {
 
 export interface PostCategories {
   categories: PostCategory[];
+}
+
+export interface PostWidgetProps {
+  categories?: string[];
+  slug?: string;
+}
+
+export interface PWidget {
+  id: string;
+  title: string;
+  slug: string;
+  createdAt: string;
+  featuredImage: {
+    url: string;
+  };
+}
+
+export interface RecentOrSimilarPosts {
+  posts: PWidget[];
 }
