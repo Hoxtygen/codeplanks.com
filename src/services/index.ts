@@ -1,6 +1,13 @@
 import { request } from "graphql-request";
 import { graphqlAPI } from "../constants";
-import { allPosts, categories, categoryPost, postDetails } from "../graphql";
+import {
+  allPosts,
+  categories,
+  categoryPost,
+  postDetails,
+  recentPosts,
+  similarPosts,
+} from "../graphql";
 import {
   BlogPostData,
   BlogPost,
@@ -8,6 +15,8 @@ import {
   PostWithContent,
   PostCategory,
   PostCategories,
+  RecentOrSimilarPosts,
+  PWidget,
 } from "../typedefs";
 
 export const getPosts = async (): Promise<BlogPost[]> => {
@@ -32,4 +41,20 @@ export const getCategoryPosts = async (slug: string): Promise<BlogPost[]> => {
     slug,
   });
   return categoryPosts.posts;
+};
+
+export const getRecentPosts = async (): Promise<PWidget[]> => {
+  const result: RecentOrSimilarPosts = await request(graphqlAPI, recentPosts);
+  return result.posts;
+};
+
+export const getSimilarPosts = async (
+  categories: string[],
+  slug: string
+): Promise<PWidget[]> => {
+  const result: RecentOrSimilarPosts = await request(graphqlAPI, similarPosts, {
+    categories,
+    slug,
+  });
+  return result.posts;
 };

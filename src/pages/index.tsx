@@ -1,6 +1,6 @@
 import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
-import { PostCard, Categories } from "../components";
+import { PostCard, Categories, PostWidget } from "../components";
 import { getCategories, getPosts } from "../services";
 import { BlogPostData, BlogPost, PostCategory } from "../typedefs";
 
@@ -20,6 +20,7 @@ const Home: NextPage<BlogPostData> = ({ posts }) => {
         </div>
         <div className="lg:col-span-4 col-span-1">
           <div className="lg:sticky relative top-8">
+            <PostWidget />
             <Categories />
           </div>
         </div>

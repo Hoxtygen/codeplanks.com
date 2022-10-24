@@ -46,6 +46,11 @@ export const postDetails = gql`
       featuredImage {
         url
       }
+      categories {
+        id
+        name
+        slug
+      }
       content {
         raw
       }
@@ -88,6 +93,40 @@ export const categoryPost = gql`
         photo {
           url
         }
+      }
+    }
+  }
+`;
+
+export const recentPosts = gql`
+  query GetRecentPosts {
+    posts(orderBy: createdAt_ASC, last: 3) {
+      id
+      title
+      createdAt
+      slug
+      featuredImage {
+        url
+      }
+    }
+  }
+`;
+
+export const similarPosts = gql`
+  query GetSimilarPosts($slug: String!, $categories: [String!]) {
+    posts(
+      where: {
+        slug_not: $slug
+        AND: { categories_some: { slug_in: $categories } }
+      }
+      last: 5
+    ) {
+      id
+      title
+      createdAt
+      slug
+      featuredImage {
+        url
       }
     }
   }

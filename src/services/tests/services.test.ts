@@ -1,4 +1,11 @@
-import { getCategories, getPostDetails, getPosts } from "../index";
+import {
+  getCategories,
+  getCategoryPosts,
+  getPostDetails,
+  getPosts,
+  getRecentPosts,
+  getSimilarPosts,
+} from "../index";
 
 afterAll(async () => {
   await new Promise<void>((resolve) => setTimeout(() => resolve(), 10000));
@@ -22,6 +29,27 @@ describe("Services", () => {
 
     it("should return post categories", async () => {
       const data = await getCategories();
+      expect(data).toBeDefined();
+      expect(Array.isArray(data)).toBe(true);
+      expect(data).not.toBeNull();
+    });
+
+    it("should return posts by categories", async () => {
+      const data = await getCategoryPosts("web-dev");
+      expect(data).toBeDefined();
+      expect(Array.isArray(data)).toBe(true);
+      expect(data).not.toBeNull();
+    });
+
+    it("should return recent posts", async () => {
+      const data = await getRecentPosts();
+      expect(data).toBeDefined();
+      expect(Array.isArray(data)).toBe(true);
+      expect(data).not.toBeNull();
+    });
+
+    it("should return similar posts", async () => {
+      const data = await getSimilarPosts(["web-dev"], "javascript-promises");
       expect(data).toBeDefined();
       expect(Array.isArray(data)).toBe(true);
       expect(data).not.toBeNull();
