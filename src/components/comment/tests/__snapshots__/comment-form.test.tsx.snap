@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommentForm should render comment form 1`] = `
+<input
+  class="py-2 px-4 outline-none w-full rounded-lg focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700"
+  data-testid="email"
+  name="email"
+  placeholder="Email"
+  type="email"
+  value=""
+/>
+`;
+
+exports[`CommentForm should render comment form 2`] = `
+<textarea
+  class="p-4 outline-none w-full rounded-lg h-40 focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700"
+  cols="30"
+  data-testid="comment"
+  id="comment"
+  name="comment"
+  placeholder="Comment"
+  rows="10"
+/>
+`;
+
+exports[`CommentForm should render comment form 3`] = `
+<input
+  class="py-2 px-4 outline-none w-full rounded-lg focus:ring-2 focus:ring-gray-200 bg-gray-100 text-gray-700"
+  data-testid="name"
+  name="name"
+  placeholder="Name"
+  type="text"
+  value=""
+/>
+`;
+
+exports[`CommentForm should render comment form 4`] = `
+<button
+  class="transition duration-500 ease hover:bg-indigo-900 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
+  disabled=""
+  type="submit"
+>
+  Post Comment
+</button>
+`;
