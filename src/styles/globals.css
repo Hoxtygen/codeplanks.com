@@ -19,3 +19,7 @@ h6 {
 p {
   font-size: 1.125rem;
 }
+button:disabled {
+  background-color: #f3f4f6;
+  /* color: black; */
+}

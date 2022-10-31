@@ -94,3 +94,16 @@ export interface PWidget {
 export interface RecentOrSimilarPosts {
   posts: PWidget[];
 }
+
+export interface NewComment {
+  name: string;
+  email: string;
+  comment: string;
+  slug: string;
+}
+
+export interface CommentFormProps {
+  slug: string;
+  handlePostSubmission(values: NewComment): void;
+  showSuccessMessage: boolean;
+}
