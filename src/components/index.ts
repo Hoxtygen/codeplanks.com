@@ -4,3 +4,5 @@ export { default as Layout } from "./layouts/Layout";
 export { default as PostCard } from "./posts/PostCard";
 export { default as PostDetail } from "./posts/PostDetail";
 export { default as PostWidget } from "./posts/PostWidget";
+export { default as CommentFormWrapper } from "./comment/CommentFormWrapper";
+export { default as CommentForm } from "./comment/CommentForm";
