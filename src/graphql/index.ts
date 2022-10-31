@@ -35,6 +35,13 @@ export const postDetails = gql`
       slug
       title
       excerpt
+      comments {
+        id
+        name
+        email
+        comment
+        createdAt
+      }
       author {
         id
         bio

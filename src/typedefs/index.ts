@@ -22,12 +22,29 @@ export interface RichContextProps {
   content: Content;
 }
 
+export interface CommentProp {
+  id: string;
+  name: string;
+  createdAt: string;
+  comment: string;
+  email: string;
+}
+
+export interface SingleComment {
+  comment: CommentProp;
+}
+
+export interface CommentListProp {
+  postComments: CommentProp[];
+}
+
 export interface BlogPost {
   id: string;
   title: string;
   slug: string;
   createdAt: string;
   excerpt: string;
+  comments: CommentProp[];
   featuredImage: {
     url: string;
     height: number;

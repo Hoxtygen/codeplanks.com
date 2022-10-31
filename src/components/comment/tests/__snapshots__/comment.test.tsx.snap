@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment should render commentlist component 1`] = `
+<h3
+  class="text-xl mb-8 font-semibold border-b pb-4"
+  data-testid="comments-heading"
+>
+  4
+   Comments
+</h3>
+`;
+
+exports[`Comment should render commentlist component 2`] = `
+[
+  <div
+    class="border-b border-gray-100 mb-4 pb-4"
+    data-testid="comment"
+  >
+    <p
+      class="mb-4"
+      data-testid="commenter-name"
+    >
+      <span
+        class="font-semibold"
+        data-testid="comment-date"
+      >
+        Machiavelli
+      </span>
+       
+      on 
+      Oct 30, 2022
+    </p>
+    <p
+      class="whitespace-pre-line text-gray-600 w-full"
+      data-testid="commenter-comment"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex commodi voluptatibus laboriosam est? Soluta, odio natus vel blanditiis mollitia impedit expedita temporibus sit cum dolores enim eveniet eaque dolorum repellat labore hic magnam non assumenda laboriosam.
+
+    </p>
+  </div>,
+  <div
+    class="border-b border-gray-100 mb-4 pb-4"
+    data-testid="comment"
+  >
+    <p
+      class="mb-4"
+      data-testid="commenter-name"
+    >
+      <span
+        class="font-semibold"
+        data-testid="comment-date"
+      >
+        Julian Ward
+      </span>
+       
+      on 
+      Oct 30, 2022
+    </p>
+    <p
+      class="whitespace-pre-line text-gray-600 w-full"
+      data-testid="commenter-comment"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex commodi voluptatibus laboriosam est? Soluta, odio natus vel blanditiis mollitia impedit expedita temporibus sit cum dolores enim eveniet eaque dolorum repellat labore hic magnam non assumenda laboriosam.
+
+    </p>
+  </div>,
+  <div
+    class="border-b border-gray-100 mb-4 pb-4"
+    data-testid="comment"
+  >
+    <p
+      class="mb-4"
+      data-testid="commenter-name"
+    >
+      <span
+        class="font-semibold"
+        data-testid="comment-date"
+      >
+        Marijuana Trump
+      </span>
+       
+      on 
+      Oct 30, 2022
+    </p>
+    <p
+      class="whitespace-pre-line text-gray-600 w-full"
+      data-testid="commenter-comment"
+    >
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum voluptates odit iste, id est aliquid molestias consequuntur nemo obcaecati aspernatur non alias doloribus laborum eveniet tempora excepturi quia in voluptatum dolor corporis adipisci odio! Architecto recusandae dolorum ullam nihil obcaecati.
+
+    </p>
+  </div>,
+  <div
+    class="border-b border-gray-100 mb-4 pb-4"
+    data-testid="comment"
+  >
+    <p
+      class="mb-4"
+      data-testid="commenter-name"
+    >
+      <span
+        class="font-semibold"
+        data-testid="comment-date"
+      >
+        Job-Search
+      </span>
+       
+      on 
+      Oct 30, 2022
+    </p>
+    <p
+      class="whitespace-pre-line text-gray-600 w-full"
+      data-testid="commenter-comment"
+    >
+      Lorem makes sense at all times
+    </p>
+  </div>,
+]
+`;
+
+exports[`Comment should render the comment component 1`] = `
+<p
+  class="mb-4"
+  data-testid="commenter-name"
+>
+  <span
+    class="font-semibold"
+    data-testid="comment-date"
+  >
+    Machiavelli
+  </span>
+   
+  on 
+  Oct 30, 2022
+</p>
+`;
+
+exports[`Comment should render the comment component 2`] = `
+<p
+  class="whitespace-pre-line text-gray-600 w-full"
+  data-testid="commenter-comment"
+>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex commodi voluptatibus laboriosam est? Soluta, odio natus vel blanditiis mollitia impedit expedita temporibus sit cum dolores enim eveniet eaque dolorum repellat labore hic magnam non assumenda laboriosam.
+
+</p>
+`;
+
+exports[`Comment should render the comment component 3`] = `
+<span
+  class="font-semibold"
+  data-testid="comment-date"
+>
+  Machiavelli
+</span>
+`;

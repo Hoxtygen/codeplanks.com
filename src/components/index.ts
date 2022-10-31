@@ -6,3 +6,5 @@ export { default as PostDetail } from "./posts/PostDetail";
 export { default as PostWidget } from "./posts/PostWidget";
 export { default as CommentFormWrapper } from "./comment/CommentFormWrapper";
 export { default as CommentForm } from "./comment/CommentForm";
+export { default as Comment } from "./comment/Comment";
+export { default as CommentList } from "./comment/CommentList";
