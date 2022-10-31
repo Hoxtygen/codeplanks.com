@@ -18,7 +18,9 @@ export default function PostDetailSlug({ post }: Post) {
         <div className="col-span-1 lg:col-span-8">
           <PostDetail post={post} />
           <CommentFormWrapper slug={post.slug} />
-          <CommentList postComments={post.comments} />
+          {post.comments.length > 0 && (
+            <CommentList postComments={post.comments} />
+          )}
         </div>
         <div className="col-span-1 lg:col-span-4">
           <div className="relative lg:sticky top-8">
