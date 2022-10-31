@@ -765,6 +765,16 @@ export const singlePost: PostWithContent = {
   title: "Promises",
   excerpt:
     "JavaScript promise is used for asynchronous programming, a successor to callback.",
+  comments: [
+    {
+      id: "cl9ptdgr712um0alp2qqae0rg",
+      name: "Machiavelli",
+      email: "nacuabjkj dfd",
+      comment:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex commodi voluptatibus laboriosam est? Soluta, odio natus vel blanditiis mollitia impedit expedita temporibus sit cum dolores enim eveniet eaque dolorum repellat labore hic magnam non assumenda laboriosam.\n",
+      createdAt: "2022-10-30T16:25:30.706593+00:00",
+    },
+  ],
   featuredImage: {
     url: "https://media.graphassets.com/zfNO9rUaTSWv46vUnqUw",
     height: 1080,

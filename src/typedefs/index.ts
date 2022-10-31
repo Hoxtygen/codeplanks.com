@@ -27,6 +27,7 @@ export interface CommentProp {
   name: string;
   createdAt: string;
   comment: string;
+  email: string;
 }
 
 export interface SingleComment {
