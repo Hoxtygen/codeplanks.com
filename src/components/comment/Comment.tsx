@@ -13,7 +13,7 @@ export default function Comment({ comment }: SingleComment) {
         on {moment(comment.createdAt).format("MMM DD, YYYY")}
       </p>
       <p
-        data-testId="commenter-comment"
+        data-testid="commenter-comment"
         className="whitespace-pre-line text-gray-600 w-full"
       >
         {parse(comment.comment)}
