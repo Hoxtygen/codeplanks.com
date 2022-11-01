@@ -1,0 +1,29 @@
+name: Lighthouse CI
+
+on:
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  lhci:
+    name: Lighthouse
+    runs-on: ubuntu-latest
+    env:
+      LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build and start the project
+        run: yarn build && yarn start
+
+      - name: run Lighthouse CI
+        run: |
+          yarn add -g @lhci/cli@0.8.x
+          lhci autorun
