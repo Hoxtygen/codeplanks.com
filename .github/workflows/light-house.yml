@@ -1,5 +1,9 @@
-name: CI
-on: [push]
+name: Lighthouse CI
+
+on:
+  pull_request:
+    branches: ["main"]
+
 jobs:
   lhci:
     name: Lighthouse
@@ -12,10 +16,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - name: yarn install, build
-        run: |
-          yarn install
-          yarn build
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build and start the project
+        run: yarn build && yarn start
+
       - name: run Lighthouse CI
         run: |
           yarn add -g @lhci/cli@0.8.x
