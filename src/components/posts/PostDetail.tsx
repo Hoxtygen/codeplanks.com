@@ -1,9 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import moment from "moment";
 
 import RichTextWrapper from "./RichTextWrapper";
 import { Post } from "../../typedefs";
+import { formatDate } from "../../utils";
 
 export default function PostDetail({ post }: Post) {
   return (
@@ -50,7 +50,7 @@ export default function PostDetail({ post }: Post) {
               />
             </svg>
             <span data-testid="published-date" aria-label="Publication date">
-              {moment(post.createdAt).format("MMM DD, YYYY")}{" "}
+              {formatDate(post.createdAt)}
             </span>
           </div>
         </div>

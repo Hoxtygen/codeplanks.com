@@ -71,8 +71,7 @@ exports[`Blog posts Home renders the Home component 1`] = `
               <span
                 data-testid="postDate"
               >
-                Oct 07, 2022
-                 
+                Oct 7, 2022
               </span>
             </div>
           </div>
@@ -153,8 +152,7 @@ exports[`Blog posts Home renders the Home component 1`] = `
               <span
                 data-testid="postDate"
               >
-                Oct 07, 2022
-                 
+                Oct 7, 2022
               </span>
             </div>
           </div>
@@ -270,8 +268,7 @@ exports[`Blog posts PostCard component should render PostCard component 1`] = `
         <span
           data-testid="postDate"
         >
-          Oct 07, 2022
-           
+          Oct 7, 2022
         </span>
       </div>
     </div>
@@ -345,8 +342,7 @@ exports[`Blog posts PostCard component should render a post 5`] = `
 <span
   data-testid="postDate"
 >
-  Oct 07, 2022
-   
+  Oct 7, 2022
 </span>
 `;
 
