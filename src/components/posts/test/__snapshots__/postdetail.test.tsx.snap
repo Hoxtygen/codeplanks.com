@@ -60,8 +60,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
             aria-label="Publication date"
             data-testid="published-date"
           >
-            Oct 07, 2022
-             
+            Oct 7, 2022
           </span>
         </div>
       </div>
@@ -1863,8 +1862,7 @@ exports[`Post Detail should show post details 5`] = `
   aria-label="Publication date"
   data-testid="published-date"
 >
-  Oct 07, 2022
-   
+  Oct 7, 2022
 </span>
 `;
 
