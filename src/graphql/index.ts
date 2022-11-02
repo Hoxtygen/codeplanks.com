@@ -57,7 +57,7 @@ const POST_FRAGMENT = gql`
 
 export const allPosts = gql`
   query GetPosts {
-    posts {
+    posts(orderBy: createdAt_DESC) {
       ...PostInfo
       ...AuthorInfo
       ...featuredImage
@@ -120,7 +120,7 @@ export const categoryPost = gql`
 
 export const recentPosts = gql`
   query GetRecentPosts {
-    posts(orderBy: createdAt_ASC, last: 3) {
+    posts(orderBy: createdAt_DESC, last: 5) {
       ...PostInfo
       featuredImage {
         url
