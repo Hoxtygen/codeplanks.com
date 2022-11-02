@@ -15,7 +15,7 @@ const AUTHOR_FRAGMENT = gql`
 
 const COMMENT_FRAGMENT = gql`
   fragment Comment on Post {
-    comments {
+    comments(orderBy: createdAt_DESC) {
       id
       name
       email
@@ -57,7 +57,7 @@ const POST_FRAGMENT = gql`
 
 export const allPosts = gql`
   query GetPosts {
-    posts(orderBy: publishedAt_DESC) {
+    posts(orderBy: createdAt_DESC) {
       ...PostInfo
       ...AuthorInfo
       ...featuredImage
@@ -120,7 +120,7 @@ export const categoryPost = gql`
 
 export const recentPosts = gql`
   query GetRecentPosts {
-    posts(orderBy: publishedAt_DESC, last: 5) {
+    posts(orderBy: createdAt_DESC, last: 5) {
       ...PostInfo
       featuredImage {
         url
@@ -133,6 +133,7 @@ export const recentPosts = gql`
 export const similarPosts = gql`
   query GetSimilarPosts($slug: String!, $categories: [String!]) {
     posts(
+      orderBy: createdAt_DESC
       where: {
         slug_not: $slug
         AND: { categories_some: { slug_in: $categories } }
