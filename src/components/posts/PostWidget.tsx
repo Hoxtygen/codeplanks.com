@@ -1,22 +1,22 @@
-import moment from "moment";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { getRecentPosts, getSimilarPosts } from "../../services";
 import { BlogError, PostWidgetProps, PWidget } from "../../typedefs";
+import { formatDate } from "../../utils";
 
 export default function PostWidget({ categories, slug }: PostWidgetProps) {
   const [relatedPosts, setRelatedPosts] = useState<PWidget[]>([]);
   const [error, setError] = useState<BlogError | null>(null);
-
   useEffect(() => {
     if (slug) {
       getSimilarPosts(categories!, slug)
         .then((result) => setRelatedPosts(result))
         .catch((err: BlogError) => setError(err));
+    } else {
+      getRecentPosts()
+        .then((result) => setRelatedPosts(result))
+        .catch((err: BlogError) => setError(err));
     }
-    getRecentPosts()
-      .then((result) => setRelatedPosts(result))
-      .catch((err: BlogError) => setError(err));
   }, [slug]);
 
   return (
@@ -38,7 +38,7 @@ export default function PostWidget({ categories, slug }: PostWidgetProps) {
           </div>
           <div className="flex-grow ml-4">
             <p className="text-gray-500 font-xs">
-              {moment(post.createdAt).format("MMM DD, YYYY")}
+              {formatDate(post.createdAt)}
             </p>
             <Link
               key={post.title}

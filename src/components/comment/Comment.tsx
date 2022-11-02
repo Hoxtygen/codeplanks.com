@@ -1,7 +1,7 @@
-import moment from "moment";
 import React from "react";
 import { SingleComment } from "../../typedefs";
 import parse from "html-react-parser";
+import { formatDate } from "../../utils";
 
 export default function Comment({ comment }: SingleComment) {
   return (
@@ -10,7 +10,7 @@ export default function Comment({ comment }: SingleComment) {
         <span data-testid="comment-date" className="font-semibold">
           {comment.name}
         </span>{" "}
-        on {moment(comment.createdAt).format("MMM DD, YYYY")}
+        on {formatDate(comment.createdAt)}
       </p>
       <p
         data-testid="commenter-comment"
