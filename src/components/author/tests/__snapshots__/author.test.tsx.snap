@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Author Component should render Author component 1`] = `
+<div>
+  <div
+    class="text-center mt-20 mb-8 p-12 relative rounded-lg bg-black"
+  >
+    <div
+      class="absolute left-0 right-0 -top-14"
+    >
+      <span
+        style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+      >
+        <span
+          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27100%27%20height=%27100%27/%3e"
+            style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+          />
+        </span>
+        <img
+          alt="Mathias Schleiden"
+          class="align-middle rounded-full"
+          data-nimg="intrinsic"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+        />
+        <noscript />
+      </span>
+    </div>
+    <h3
+      class="text-white my-4 text-xl font-bold"
+    >
+      Mathias Schleiden
+    </h3>
+    <p
+      class="text-white text-lg"
+    >
+      Mathias was a great scientist
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Author Component should render Author component 2`] = `
+<img
+  alt="Mathias Schleiden"
+  class="align-middle rounded-full"
+  data-nimg="intrinsic"
+  decoding="async"
+  src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+  style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+/>
+`;
+
+exports[`Author Component should render Author component 3`] = `
+<h3
+  class="text-white my-4 text-xl font-bold"
+>
+  Mathias Schleiden
+</h3>
+`;
+
+exports[`Author Component should render Author component 4`] = `
+<h3
+  class="text-white my-4 text-xl font-bold"
+>
+  Mathias Schleiden
+</h3>
+`;
+
+exports[`Author Component should render Author component 5`] = `
+<p
+  class="text-white text-lg"
+>
+  Mathias was a great scientist
+</p>
+`;

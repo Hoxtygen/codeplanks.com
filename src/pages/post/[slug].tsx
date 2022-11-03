@@ -2,6 +2,7 @@ import { GetStaticProps } from "next";
 import { ParsedUrlQuery } from "querystring";
 import React from "react";
 import {
+  Author,
   Categories,
   CommentList,
   PostDetail,
@@ -17,6 +18,7 @@ export default function PostDetailSlug({ post }: Post) {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="col-span-1 lg:col-span-8">
           <PostDetail post={post} />
+          <Author author={post.author} />
           <CommentFormWrapper slug={post.slug} />
           {post.comments.length > 0 && (
             <CommentList postComments={post.comments} />
