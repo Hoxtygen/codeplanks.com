@@ -24,5 +24,6 @@ module.exports = {
     "react/prop-types": "off",
     "no-console": ["error", { allow: ["warn"] }],
     "@typescript-eslint/no-explicit-any": "off",
+    "@next/next/no-img-element": "off",
   },
 };

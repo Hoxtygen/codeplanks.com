@@ -8,3 +8,4 @@ export { default as CommentFormWrapper } from "./comment/CommentFormWrapper";
 export { default as CommentForm } from "./comment/CommentForm";
 export { default as Comment } from "./comment/Comment";
 export { default as CommentList } from "./comment/CommentList";
+export { default as Author } from "./author/Author";

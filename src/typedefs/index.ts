@@ -11,6 +11,9 @@ interface Author {
     url: string;
   };
 }
+export interface AuthorProp {
+  author: Author;
+}
 
 export interface Content {
   raw: {
