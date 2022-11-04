@@ -93,7 +93,7 @@ export default function RichTextWrapper({ content }: RichContextProps) {
           blockquote: ({ children }) => (
             <figure data-testid="quote">
               <blockquote>
-                <p className="text-lg font-medium">{children}</p>
+                <p className="text-xl font-medium">{children}</p>
               </blockquote>
             </figure>
           ),
