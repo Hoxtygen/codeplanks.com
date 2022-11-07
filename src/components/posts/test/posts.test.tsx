@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import Home from "../../../pages";
-import { testPosts } from "../../../test-data/posts";
+import { testPosts } from "../../../data/posts";
 import PostCard from "../PostCard";
 
 describe("Blog posts", () => {

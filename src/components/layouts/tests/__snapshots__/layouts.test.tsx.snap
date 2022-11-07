@@ -6,10 +6,10 @@ exports[`Header renders Header component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="container mx-auto px-10 mb-8"
+        class="container mx-auto px-10 py-10"
       >
         <div
-          class="border-b w-full inline-block border-black py-8"
+          class="border-b w-full inline-block border-black py-4"
         >
           <div
             class="md:float-left block"
@@ -29,10 +29,10 @@ exports[`Header renders Header component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="container mx-auto px-10 mb-8"
+      class="container mx-auto px-10 py-10"
     >
       <div
-        class="border-b w-full inline-block border-black py-8"
+        class="border-b w-full inline-block border-black py-4"
       >
         <div
           class="md:float-left block"
@@ -114,10 +114,10 @@ exports[`Header renders Header component 2`] = `
 exports[`Header renders layout 1`] = `
 <div>
   <div
-    class="container mx-auto px-10 mb-8"
+    class="container mx-auto px-10 py-10"
   >
     <div
-      class="border-b w-full inline-block border-black py-8"
+      class="border-b w-full inline-block border-black py-4"
     >
       <div
         class="md:float-left block"
