@@ -127,3 +127,13 @@ export interface CommentFormProps {
   handlePostSubmission(values: NewComment): void;
   showSuccessMessage: boolean;
 }
+
+export interface SeoHeadInt {
+  title: string;
+  description: string;
+  canonicalUrl: string;
+  ogTwitterImage: string;
+  ogType: string;
+  ogImageUrl: string;
+  children?: any;
+}

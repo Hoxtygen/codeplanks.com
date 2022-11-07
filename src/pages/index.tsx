@@ -1,16 +1,21 @@
 import type { GetStaticProps, NextPage } from "next";
-import Head from "next/head";
 import { PostCard, Categories, PostWidget } from "../components";
+import SeoHead from "../components/layouts/SeoHead";
+import siteMetadata from "../data/siteMetadata";
 import { getCategories, getPosts } from "../services";
 import { BlogPostData, BlogPost, PostCategory } from "../typedefs";
 
 const Home: NextPage<BlogPostData> = ({ posts }) => {
   return (
     <div className="container mx-auto px-10 mb-8">
-      <Head>
-        <title>Talks of Code</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <SeoHead
+        title="Talks of Code"
+        description="Break down complex topics into digestible bits"
+        canonicalUrl={siteMetadata.siteUrl}
+        ogTwitterImage={siteMetadata.siteLogoSquare}
+        ogType={"website"}
+        ogImageUrl="placeholder"
+      />
 
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-1">
