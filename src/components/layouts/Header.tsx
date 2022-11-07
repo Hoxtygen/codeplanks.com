@@ -13,8 +13,8 @@ export default function Header() {
       .catch((err: BlogError) => setError(err));
   }, []);
   return (
-    <div className="container mx-auto px-10 mb-8">
-      <div className="border-b w-full inline-block border-black py-8">
+    <div className="container mx-auto px-10 py-10">
+      <div className="border-b w-full inline-block border-black py-4">
         <div className="md:float-left block">
           <Link href="/">
             <span className="cursor-pointer font-bold text-4xl text-blue">
@@ -28,7 +28,7 @@ export default function Header() {
             <Link key={category.id} href={`/category/${category.slug}`}>
               <span
                 data-testid="header-link"
-                className="md:float-right mt-2 align-middle text-blue ml-4 font-semibold cursor-pointer"
+                className="md:float-right mt-2 align-middle text-blue ml-4 font-semibold cursor-pointer text-lg"
               >
                 {category.name}
               </span>

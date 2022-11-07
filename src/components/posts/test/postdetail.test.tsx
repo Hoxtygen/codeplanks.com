@@ -2,7 +2,7 @@ import React from "react";
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 
-import { singlePost } from "../../../test-data/posts";
+import { singlePost } from "../../../data/posts";
 import PostDetail from "../PostDetail";
 
 describe("Post Detail", () => {

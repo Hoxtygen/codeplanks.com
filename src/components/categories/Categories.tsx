@@ -14,14 +14,14 @@ export default function Categories() {
   }, []);
   return (
     <div className="bg-white shadow-lg rounded-lg p-8 mb-8 pb-12">
-      <h3 className="text-xl mb-8 font-semibold border-b pb-4">Categories</h3>
+      <h3 className="text-2xl mb-4 font-semibold border-b pb-4">Categories</h3>
       {error && <p>{error.error}</p>}
       {categories.map((category) => (
         <Link key={category.id} href={`/category/${category.slug}`}>
           <span
             data-testid="link"
             aria-roledescription="link"
-            className="cursor-pointer block pb-3 mb-3"
+            className="cursor-pointer block pb-3 mb-3 text-lg"
           >
             {category.name}
           </span>

@@ -54,13 +54,13 @@ export default function PostDetail({ post }: Post) {
             </span>
           </div>
         </div>
-        <h1
+        <h2
           data-testid="post-title"
           className="mb-8 text-3xl font-semibold"
           data-name={post.title}
         >
           {post.title}
-        </h1>
+        </h2>
         <RichTextWrapper content={post.content} />
       </div>
     </div>

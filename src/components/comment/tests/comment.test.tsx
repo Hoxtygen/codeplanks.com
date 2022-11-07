@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 
-import { testComments } from "../../../test-data/comments";
+import { testComments } from "../../../data/comments";
 import Comment from "../Comment";
 import CommentList from "../CommentList";
 

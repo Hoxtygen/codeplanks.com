@@ -64,16 +64,16 @@ exports[`Post Detail renders the PostDetail component 1`] = `
           </span>
         </div>
       </div>
-      <h1
+      <h2
         class="mb-8 text-3xl font-semibold"
         data-name="Promises"
         data-testid="post-title"
       >
         Promises
-      </h1>
+      </h2>
       <div>
         <p
-          class="mb-8"
+          class="mb-4"
           data-testid="paragraph"
         >
           A JavaScript Promise is created with the new 
@@ -329,7 +329,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
           </code>
         </pre>
         <p
-          class="mb-8"
+          class="mb-4"
           data-testid="paragraph"
         >
           This code creates a promise that will start in a few seconds after I make the request. Then there are a number of steps that need to be made in the 
@@ -340,11 +340,13 @@ exports[`Post Detail renders the PostDetail component 1`] = `
           </code>
            function.
         </p>
-        <h6>
+        <h6
+          class="text-base font-semibold mb-4"
+        >
           Indicated a Successful Request or a Failed Request
         </h6>
         <p
-          class="mb-8"
+          class="mb-4"
           data-testid="paragraph"
         >
           But once that's all done, how does JavaScript notify us that it's finished and ready for us to pick back up? It does that by passing two functions into our initial function. Typically we call these 
@@ -362,7 +364,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
           .
         </p>
         <p
-          class="mb-8"
+          class="mb-4"
           data-testid="paragraph"
         >
           The function gets passed to the function we provide the Promise constructor - typically the word "resolve" is used to indicate that this function should be called when the request completes successfully. Notice the 
@@ -624,7 +626,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
           </code>
         </pre>
         <p
-          class="mb-8"
+          class="mb-4"
           data-testid="paragraph"
         >
           Now when the sundae has been successfully created, it calls the 
@@ -647,7 +649,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
           .
         </p>
         <p
-          class="mb-8"
+          class="mb-4"
           data-testid="paragraph"
         >
           If there is a problem with the request and it couldn't be completed, then we could use the second function that's passed to the function. Typically, this function is stored in an identifier called "reject" to indicate that this function should be used if the request fails for some reason. Check out the 
@@ -991,7 +993,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
           </code>
         </pre>
         <p
-          class="mb-8"
+          class="mb-4"
           data-testid="paragraph"
         >
           So the 
@@ -1008,7 +1010,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
           . Notice that even though the request fails, we can still return data - in this case we're just returning text that says we don't have the desired ice cream flavor.
         </p>
         <p
-          class="mb-8"
+          class="mb-4"
           data-testid="paragraph"
         >
           A Promise constructor takes a function that will run and then, after some amount of time, will either complete successfully (using the 
@@ -1031,12 +1033,12 @@ exports[`Post Detail renders the PostDetail component 1`] = `
            and will notify us so we can decide what to do with the response.
         </p>
         <h2
-          class="text-xl font-semibold mb-4"
+          class="text-3xl font-semibold mb-4"
         >
           Promises Return Immediately
         </h2>
         <p
-          class="mb-8"
+          class="mb-4"
           data-testid="paragraph"
         >
           The first thing to understand is that a Promise will immediately return an object.
@@ -1145,7 +1147,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
           </code>
         </pre>
         <p
-          class="mb-8"
+          class="mb-4"
           data-testid="paragraph"
         >
           That object has a 
@@ -1211,7 +1213,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
              
              
             <p
-              class="mb-8"
+              class="mb-4"
               data-testid="paragraph"
             >
               the function to run if the request completed successfully
@@ -1223,7 +1225,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
              
              
             <p
-              class="mb-8"
+              class="mb-4"
               data-testid="paragraph"
             >
               the function to run if the request failed to complete
@@ -1474,7 +1476,7 @@ exports[`Post Detail renders the PostDetail component 1`] = `
           </code>
         </pre>
         <p
-          class="mb-8"
+          class="mb-4"
           data-testid="paragraph"
         >
           As you can see, the first function that's passed to 
@@ -1556,19 +1558,19 @@ exports[`Post Detail should show post details 2`] = `
 `;
 
 exports[`Post Detail should show post details 3`] = `
-<h1
+<h2
   class="mb-8 text-3xl font-semibold"
   data-name="Promises"
   data-testid="post-title"
 >
   Promises
-</h1>
+</h2>
 `;
 
 exports[`Post Detail should show post details 4`] = `
 [
   <p
-    class="mb-8"
+    class="mb-4"
     data-testid="paragraph"
   >
     A JavaScript Promise is created with the new 
@@ -1609,7 +1611,7 @@ exports[`Post Detail should show post details 4`] = `
     . A promise will let you start some work that will be done asynchronously and let you get back to your regular work. When you create the promise, you must give it the code that will be run asynchronously. You provide this code as the argument of the constructor function:
   </p>,
   <p
-    class="mb-8"
+    class="mb-4"
     data-testid="paragraph"
   >
     This code creates a promise that will start in a few seconds after I make the request. Then there are a number of steps that need to be made in the 
@@ -1621,7 +1623,7 @@ exports[`Post Detail should show post details 4`] = `
      function.
   </p>,
   <p
-    class="mb-8"
+    class="mb-4"
     data-testid="paragraph"
   >
     But once that's all done, how does JavaScript notify us that it's finished and ready for us to pick back up? It does that by passing two functions into our initial function. Typically we call these 
@@ -1639,7 +1641,7 @@ exports[`Post Detail should show post details 4`] = `
     .
   </p>,
   <p
-    class="mb-8"
+    class="mb-4"
     data-testid="paragraph"
   >
     The function gets passed to the function we provide the Promise constructor - typically the word "resolve" is used to indicate that this function should be called when the request completes successfully. Notice the 
@@ -1651,7 +1653,7 @@ exports[`Post Detail should show post details 4`] = `
      on the first line:
   </p>,
   <p
-    class="mb-8"
+    class="mb-4"
     data-testid="paragraph"
   >
     Now when the sundae has been successfully created, it calls the 
@@ -1674,7 +1676,7 @@ exports[`Post Detail should show post details 4`] = `
     .
   </p>,
   <p
-    class="mb-8"
+    class="mb-4"
     data-testid="paragraph"
   >
     If there is a problem with the request and it couldn't be completed, then we could use the second function that's passed to the function. Typically, this function is stored in an identifier called "reject" to indicate that this function should be used if the request fails for some reason. Check out the 
@@ -1686,7 +1688,7 @@ exports[`Post Detail should show post details 4`] = `
      on the first line:
   </p>,
   <p
-    class="mb-8"
+    class="mb-4"
     data-testid="paragraph"
   >
     So the 
@@ -1703,7 +1705,7 @@ exports[`Post Detail should show post details 4`] = `
     . Notice that even though the request fails, we can still return data - in this case we're just returning text that says we don't have the desired ice cream flavor.
   </p>,
   <p
-    class="mb-8"
+    class="mb-4"
     data-testid="paragraph"
   >
     A Promise constructor takes a function that will run and then, after some amount of time, will either complete successfully (using the 
@@ -1726,13 +1728,13 @@ exports[`Post Detail should show post details 4`] = `
      and will notify us so we can decide what to do with the response.
   </p>,
   <p
-    class="mb-8"
+    class="mb-4"
     data-testid="paragraph"
   >
     The first thing to understand is that a Promise will immediately return an object.
   </p>,
   <p
-    class="mb-8"
+    class="mb-4"
     data-testid="paragraph"
   >
     That object has a 
@@ -1788,19 +1790,19 @@ exports[`Post Detail should show post details 4`] = `
      method takes two functions:
   </p>,
   <p
-    class="mb-8"
+    class="mb-4"
     data-testid="paragraph"
   >
     the function to run if the request completed successfully
   </p>,
   <p
-    class="mb-8"
+    class="mb-4"
     data-testid="paragraph"
   >
     the function to run if the request failed to complete
   </p>,
   <p
-    class="mb-8"
+    class="mb-4"
     data-testid="paragraph"
   >
     As you can see, the first function that's passed to 
@@ -1867,11 +1869,11 @@ exports[`Post Detail should show post details 5`] = `
 `;
 
 exports[`Post Detail should show post details 6`] = `
-<h1
+<h2
   class="mb-8 text-3xl font-semibold"
   data-name="Promises"
   data-testid="post-title"
 >
   Promises
-</h1>
+</h2>
 `;
