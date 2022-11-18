@@ -1,4 +1,4 @@
-# talksofcode.com
+# codeplanks.com
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/d9af93e8-63c2-44b4-8c3e-e11c159d9724/deploy-status)](https://app.netlify.com/sites/hoxtygen-talksofcode/deploys?branch=develop)
 

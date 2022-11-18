@@ -20,7 +20,6 @@ export default function Categories() {
         <Link key={category.id} href={`/category/${category.slug}`}>
           <span
             data-testid="link"
-            aria-roledescription="link"
             className="cursor-pointer block pb-3 mb-3 text-lg"
           >
             {category.name}
