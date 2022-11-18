@@ -1,7 +1,7 @@
 const siteMetadata = {
-  companyName: "TalksOfCode",
+  companyName: "Codeplanks",
   phoneNumber: "(+234) 806-018-4972",
-  siteUrl: "https://talksofcode.com",
+  siteUrl: "https://codeplanks.com",
   siteLogo: "https://example.com/images/logo.png",
   siteLogoSquare: "https://example.com/images/logox200.png",
   email: "adenwas@gmail.com",

@@ -9,7 +9,7 @@ const Home: NextPage<BlogPostData> = ({ posts }) => {
   return (
     <div className="container mx-auto px-10 mb-8">
       <SeoHead
-        title="Talks of Code"
+        title="Code Planks"
         description="Break down complex topics into digestible bits"
         canonicalUrl={siteMetadata.siteUrl}
         ogTwitterImage={siteMetadata.siteLogoSquare}

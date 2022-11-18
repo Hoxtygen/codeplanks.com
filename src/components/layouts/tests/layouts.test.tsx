@@ -6,7 +6,7 @@ import Layout from "../Layout";
 describe("Header", () => {
   it("renders Header component", () => {
     const view = render(<Header />);
-    const headerText = screen.getByText("TalksofCode");
+    const headerText = screen.getByText("CodePlanks");
     expect(view).toMatchSnapshot();
     expect(headerText).toBeInTheDocument();
     expect(headerText).toMatchSnapshot();

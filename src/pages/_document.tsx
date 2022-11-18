@@ -4,8 +4,6 @@ function Document() {
   return (
     <Html lang="en-us">
       <Head>
-        <meta charSet="utf-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <meta name="robots" content="index, follow" />
         <link
