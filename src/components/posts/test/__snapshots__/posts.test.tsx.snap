@@ -85,7 +85,7 @@ exports[`Blog posts Home renders the Home component 1`] = `
             class="text-center"
           >
             <span
-              class="transition duration-500 transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
+              class="transition duration-500 transform hover:-translate-y-1 inline-block bg-black text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
               data-testid="readmore"
             >
               Continue reading
@@ -166,7 +166,7 @@ exports[`Blog posts Home renders the Home component 1`] = `
             class="text-center"
           >
             <span
-              class="transition duration-500 transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
+              class="transition duration-500 transform hover:-translate-y-1 inline-block bg-black text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
               data-testid="readmore"
             >
               Continue reading
@@ -282,7 +282,7 @@ exports[`Blog posts PostCard component should render PostCard component 1`] = `
       class="text-center"
     >
       <span
-        class="transition duration-500 transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
+        class="transition duration-500 transform hover:-translate-y-1 inline-block bg-black text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
         data-testid="readmore"
       >
         Continue reading
@@ -356,7 +356,7 @@ exports[`Blog posts PostCard component should render a post 6`] = `
 
 exports[`Blog posts PostCard component should render a post 7`] = `
 <span
-  class="transition duration-500 transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
+  class="transition duration-500 transform hover:-translate-y-1 inline-block bg-black text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
   data-testid="readmore"
 >
   Continue reading
@@ -365,7 +365,7 @@ exports[`Blog posts PostCard component should render a post 7`] = `
 
 exports[`Blog posts PostCard component should render a post 8`] = `
 <span
-  class="transition duration-500 transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
+  class="transition duration-500 transform hover:-translate-y-1 inline-block bg-black text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
   data-testid="readmore"
 >
   Continue reading
