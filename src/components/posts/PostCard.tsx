@@ -58,7 +58,7 @@ export default function PostCard({ post }: PostWithoutContent) {
         <Link href={`/post/${post.slug}`}>
           <span
             data-testid="readmore"
-            className="transition duration-500 transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
+            className="transition duration-500 transform hover:-translate-y-1 inline-block bg-black text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer"
           >
             Continue reading
           </span>
