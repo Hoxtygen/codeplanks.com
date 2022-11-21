@@ -138,5 +138,24 @@ exports[`Header renders layout 1`] = `
   >
     Child component
   </button>
+  <div
+    class="footer-wrapper bg-black"
+  >
+    <div
+      class="container mx-auto px-10 py-10 text-white flex justify-center items-center"
+    >
+      <p
+        class="text-lg font-semibold"
+      >
+        © codeplanks 2020-2022. All code
+         
+        <a
+          href="http://opensource.org/licenses/MIT"
+        >
+          MIT License
+        </a>
+      </p>
+    </div>
+  </div>
 </div>
 `;
