@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 function Document() {
   return (
-    <Html lang="en-us">
+    <Html lang="en-us" className="dark">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <meta name="robots" content="index, follow" />
@@ -17,7 +17,7 @@ function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body>
+      <body className="dark:bg-gray-800">
         <Main />
         <NextScript />
       </body>

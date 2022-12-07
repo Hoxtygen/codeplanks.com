@@ -1,4 +1,5 @@
 import type { GetStaticProps, NextPage } from "next";
+
 import { PostCard, Categories, PostWidget } from "../components";
 import SeoHead from "../components/layouts/SeoHead";
 import siteMetadata from "../data/siteMetadata";
