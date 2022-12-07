@@ -31,7 +31,7 @@ exports[`Comment should render commentlist component 2`] = `
       Oct 30, 2022
     </p>
     <p
-      class="whitespace-pre-line text-gray-600 w-full"
+      class="whitespace-pre-line w-full"
       data-testid="commenter-comment"
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex commodi voluptatibus laboriosam est? Soluta, odio natus vel blanditiis mollitia impedit expedita temporibus sit cum dolores enim eveniet eaque dolorum repellat labore hic magnam non assumenda laboriosam.
@@ -57,7 +57,7 @@ exports[`Comment should render commentlist component 2`] = `
       Oct 30, 2022
     </p>
     <p
-      class="whitespace-pre-line text-gray-600 w-full"
+      class="whitespace-pre-line w-full"
       data-testid="commenter-comment"
     >
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex commodi voluptatibus laboriosam est? Soluta, odio natus vel blanditiis mollitia impedit expedita temporibus sit cum dolores enim eveniet eaque dolorum repellat labore hic magnam non assumenda laboriosam.
@@ -83,7 +83,7 @@ exports[`Comment should render commentlist component 2`] = `
       Oct 30, 2022
     </p>
     <p
-      class="whitespace-pre-line text-gray-600 w-full"
+      class="whitespace-pre-line w-full"
       data-testid="commenter-comment"
     >
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum voluptates odit iste, id est aliquid molestias consequuntur nemo obcaecati aspernatur non alias doloribus laborum eveniet tempora excepturi quia in voluptatum dolor corporis adipisci odio! Architecto recusandae dolorum ullam nihil obcaecati.
@@ -109,7 +109,7 @@ exports[`Comment should render commentlist component 2`] = `
       Oct 30, 2022
     </p>
     <p
-      class="whitespace-pre-line text-gray-600 w-full"
+      class="whitespace-pre-line w-full"
       data-testid="commenter-comment"
     >
       Lorem makes sense at all times
@@ -137,7 +137,7 @@ exports[`Comment should render the comment component 1`] = `
 
 exports[`Comment should render the comment component 2`] = `
 <p
-  class="whitespace-pre-line text-gray-600 w-full"
+  class="whitespace-pre-line w-full"
   data-testid="commenter-comment"
 >
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex commodi voluptatibus laboriosam est? Soluta, odio natus vel blanditiis mollitia impedit expedita temporibus sit cum dolores enim eveniet eaque dolorum repellat labore hic magnam non assumenda laboriosam.
