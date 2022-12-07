@@ -1,6 +1,7 @@
-import React from "react";
-import { SingleComment } from "../../typedefs";
 import parse from "html-react-parser";
+import React from "react";
+
+import { SingleComment } from "../../typedefs";
 import { formatDate } from "../../utils";
 
 export default function Comment({ comment }: SingleComment) {

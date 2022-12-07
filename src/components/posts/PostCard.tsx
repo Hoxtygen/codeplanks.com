@@ -1,7 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import { PostWithoutContent } from "../../typedefs";
 import Link from "next/link";
 import React from "react";
+
+import { PostWithoutContent } from "../../typedefs";
 import { formatDate } from "../../utils";
 
 export default function PostCard({ post }: PostWithoutContent) {

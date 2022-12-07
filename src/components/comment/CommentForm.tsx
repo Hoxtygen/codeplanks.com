@@ -1,8 +1,8 @@
 import { useFormik } from "formik";
 import React from "react";
-import { CommentFormProps } from "../../typedefs";
 
 import { commentFormInitialValues } from "./formUtils/initialValues";
+import { CommentFormProps } from "../../typedefs";
 import { validationSchema } from "./formUtils/validationSchema";
 
 export default function CommentForm({

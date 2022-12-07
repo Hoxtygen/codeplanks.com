@@ -1,14 +1,16 @@
 import { GetStaticProps } from "next";
 import { ParsedUrlQuery } from "querystring";
 import React from "react";
+
 import {
   Author,
   Categories,
   CommentList,
   PostDetail,
   PostWidget,
+  CommentFormWrapper,
 } from "../../components";
-import CommentFormWrapper from "../../components/comment/CommentFormWrapper";
+// import CommentFormWrapper from "../../components";
 import SeoHead from "../../components/layouts/SeoHead";
 import siteMetadata from "../../data/siteMetadata";
 import { getPostDetails, getPosts } from "../../services";

@@ -1,10 +1,10 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { getCategories } from "../../services";
-import { BlogError, PostCategory } from "../../typedefs";
-
 import { useTheme } from "next-themes";
 import Image from "next/image";
+
+import { getCategories } from "../../services";
+import { BlogError, PostCategory } from "../../typedefs";
 
 export default function Header() {
   const [categories, setCategories] = useState<PostCategory[]>([]);
