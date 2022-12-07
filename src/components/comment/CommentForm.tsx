@@ -1,8 +1,8 @@
 import { useFormik } from "formik";
 import React from "react";
-import { CommentFormProps } from "../../typedefs";
 
 import { commentFormInitialValues } from "./formUtils/initialValues";
+import { CommentFormProps } from "../../typedefs";
 import { validationSchema } from "./formUtils/validationSchema";
 
 export default function CommentForm({
@@ -22,7 +22,7 @@ export default function CommentForm({
 
   return (
     <form onSubmit={formik.handleSubmit}>
-      <div className="bg-white shadow-lg rounded-lg p-8 pb-12 mb-8">
+      <div className="bg-white dark:bg-slate-800 bg-white shadow-lg rounded-lg p-8 pb-12 mb-8">
         <h3 className="text-xl mb-8 font-semibold border-b pb-4">
           Leave a Reply
         </h3>

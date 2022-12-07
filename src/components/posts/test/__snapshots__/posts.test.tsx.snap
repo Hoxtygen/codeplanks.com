@@ -12,7 +12,7 @@ exports[`Blog posts Home renders the Home component 1`] = `
         class="lg:col-span-8 col-span-1"
       >
         <div
-          class="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8"
+          class="bg-white dark:bg-slate-800 shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8"
         >
           <div
             class="relative overflow-hidden shadow-md pb-80 mb-6"
@@ -46,13 +46,13 @@ exports[`Blog posts Home renders the Home component 1`] = `
                 width="50px"
               />
               <p
-                class="inline align-middle text-gray-700 ml-2 text-lg"
+                class="inline align-middle ml-2 text-lg"
               >
                 Wasiu Idowu
               </p>
             </div>
             <div
-              class="font-medium text-gray-700"
+              class="font-medium"
             >
               <svg
                 class="h-6 w-6 inline mr-2 text-pink-500"
@@ -76,7 +76,7 @@ exports[`Blog posts Home renders the Home component 1`] = `
             </div>
           </div>
           <p
-            class="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8"
+            class="bg-white dark:bg-slate-800 text-center text-lg font-normal px-4 lg:px-20 mb-8"
             data-testid="excerpt"
           >
             JavaScript promise is used for asynchronous programming, a successor to callback.
@@ -93,7 +93,7 @@ exports[`Blog posts Home renders the Home component 1`] = `
           </div>
         </div>
         <div
-          class="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8"
+          class="bg-white dark:bg-slate-800 shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8"
         >
           <div
             class="relative overflow-hidden shadow-md pb-80 mb-6"
@@ -127,13 +127,13 @@ exports[`Blog posts Home renders the Home component 1`] = `
                 width="50px"
               />
               <p
-                class="inline align-middle text-gray-700 ml-2 text-lg"
+                class="inline align-middle ml-2 text-lg"
               >
                 Wasiu Idowu
               </p>
             </div>
             <div
-              class="font-medium text-gray-700"
+              class="font-medium"
             >
               <svg
                 class="h-6 w-6 inline mr-2 text-pink-500"
@@ -157,7 +157,7 @@ exports[`Blog posts Home renders the Home component 1`] = `
             </div>
           </div>
           <p
-            class="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8"
+            class="bg-white dark:bg-slate-800 text-center text-lg font-normal px-4 lg:px-20 mb-8"
             data-testid="excerpt"
           >
             JavaScript promise is used for asynchronous programming, a successor to callback.
@@ -181,7 +181,7 @@ exports[`Blog posts Home renders the Home component 1`] = `
           class="lg:sticky relative top-8"
         >
           <div
-            class="bg-white shadow-lg rounded-lg p-8 mb-8"
+            class="bg-white dark:bg-slate-800 shadow-lg rounded-lg p-8 mb-8"
           >
             <h3
               class="text-2xl mb-4 font-semibold border-b pb-4"
@@ -191,7 +191,7 @@ exports[`Blog posts Home renders the Home component 1`] = `
             </h3>
           </div>
           <div
-            class="bg-white shadow-lg rounded-lg p-8 mb-8 pb-12"
+            class=" shadow-lg rounded-lg p-8 mb-8 pb-12"
           >
             <h3
               class="text-2xl mb-4 font-semibold border-b pb-4"
@@ -209,7 +209,7 @@ exports[`Blog posts Home renders the Home component 1`] = `
 exports[`Blog posts PostCard component should render PostCard component 1`] = `
 <div>
   <div
-    class="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8"
+    class="bg-white dark:bg-slate-800 shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8"
   >
     <div
       class="relative overflow-hidden shadow-md pb-80 mb-6"
@@ -243,13 +243,13 @@ exports[`Blog posts PostCard component should render PostCard component 1`] = `
           width="50px"
         />
         <p
-          class="inline align-middle text-gray-700 ml-2 text-lg"
+          class="inline align-middle ml-2 text-lg"
         >
           Wasiu Idowu
         </p>
       </div>
       <div
-        class="font-medium text-gray-700"
+        class="font-medium"
       >
         <svg
           class="h-6 w-6 inline mr-2 text-pink-500"
@@ -273,7 +273,7 @@ exports[`Blog posts PostCard component should render PostCard component 1`] = `
       </div>
     </div>
     <p
-      class="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8"
+      class="bg-white dark:bg-slate-800 text-center text-lg font-normal px-4 lg:px-20 mb-8"
       data-testid="excerpt"
     >
       JavaScript promise is used for asynchronous programming, a successor to callback.
@@ -294,7 +294,7 @@ exports[`Blog posts PostCard component should render PostCard component 1`] = `
 
 exports[`Blog posts PostCard component should render a post 1`] = `
 <p
-  class="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8"
+  class="bg-white dark:bg-slate-800 text-center text-lg font-normal px-4 lg:px-20 mb-8"
   data-testid="excerpt"
 >
   JavaScript promise is used for asynchronous programming, a successor to callback.

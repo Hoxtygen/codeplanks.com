@@ -7,7 +7,7 @@ import { formatDate } from "../../utils";
 
 export default function PostDetail({ post }: Post) {
   return (
-    <div className="bg-white shadow-lg rounded-lg lg:p-8 pb-12 mb-8">
+    <div className="shadow-lg rounded-lg lg:p-8 pb-12 mb-8">
       <div className="relative overflow-hidden shadow-md mb-6">
         <img
           src={post.featuredImage.url}
@@ -28,13 +28,13 @@ export default function PostDetail({ post }: Post) {
             />
             <p
               data-testid="author-name"
-              className="inline align-middle text-gray-700 ml-2 text-lg"
+              className="inline align-middle  ml-2 text-lg"
               aria-label="Author name"
             >
               {post.author.name}
             </p>
           </div>
-          <div className="font-medium text-gray-700">
+          <div className="font-medium">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-6 w-6 inline mr-2 text-pink-500"

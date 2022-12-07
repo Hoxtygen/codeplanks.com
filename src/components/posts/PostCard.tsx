@@ -1,12 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
-import { PostWithoutContent } from "../../typedefs";
 import Link from "next/link";
 import React from "react";
+
+import { PostWithoutContent } from "../../typedefs";
 import { formatDate } from "../../utils";
 
 export default function PostCard({ post }: PostWithoutContent) {
   return (
-    <div className="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8">
+    <div className="bg-white dark:bg-slate-800 shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8">
       <div className="relative overflow-hidden shadow-md pb-80 mb-6">
         <img
           src={post.featuredImage.url}
@@ -26,11 +27,9 @@ export default function PostCard({ post }: PostWithoutContent) {
             height="50px"
             width="50px"
           />
-          <p className="inline align-middle text-gray-700 ml-2 text-lg">
-            {post.author.name}
-          </p>
+          <p className="inline align-middle ml-2 text-lg">{post.author.name}</p>
         </div>
-        <div className="font-medium text-gray-700">
+        <div className="font-medium">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6 inline mr-2 text-pink-500"
@@ -50,7 +49,7 @@ export default function PostCard({ post }: PostWithoutContent) {
       </div>
       <p
         data-testid="excerpt"
-        className="text-center text-lg text-gray-700 font-normal px-4 lg:px-20 mb-8"
+        className="bg-white dark:bg-slate-800 text-center text-lg font-normal px-4 lg:px-20 mb-8"
       >
         {post.excerpt}
       </p>

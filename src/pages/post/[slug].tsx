@@ -1,14 +1,16 @@
 import { GetStaticProps } from "next";
 import { ParsedUrlQuery } from "querystring";
 import React from "react";
+
 import {
   Author,
   Categories,
   CommentList,
   PostDetail,
   PostWidget,
+  CommentFormWrapper,
 } from "../../components";
-import CommentFormWrapper from "../../components/comment/CommentFormWrapper";
+// import CommentFormWrapper from "../../components";
 import SeoHead from "../../components/layouts/SeoHead";
 import siteMetadata from "../../data/siteMetadata";
 import { getPostDetails, getPosts } from "../../services";
@@ -41,7 +43,7 @@ export default function PostDetailSlug({ post }: Post) {
           }}
         ></script>
       </SeoHead>
-      <div className="container mx-auto px-10 mb-8">
+      <div className="bg-white dark:bg-slate-800 container mx-auto px-10 mb-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           <div className="col-span-1 lg:col-span-8">
             <PostDetail post={post} />

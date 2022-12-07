@@ -1,6 +1,7 @@
-import React from "react";
-import { SingleComment } from "../../typedefs";
 import parse from "html-react-parser";
+import React from "react";
+
+import { SingleComment } from "../../typedefs";
 import { formatDate } from "../../utils";
 
 export default function Comment({ comment }: SingleComment) {
@@ -12,10 +13,7 @@ export default function Comment({ comment }: SingleComment) {
         </span>{" "}
         on {formatDate(comment.createdAt)}
       </p>
-      <p
-        data-testid="commenter-comment"
-        className="whitespace-pre-line text-gray-600 w-full"
-      >
+      <p data-testid="commenter-comment" className="whitespace-pre-line w-full">
         {parse(comment.comment)}
       </p>
     </div>
